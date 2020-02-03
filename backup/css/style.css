@@ -1,0 +1,35 @@
+*{font-family: 'Do Hyeon', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;}
+
+div{text-align: center;}
+
+.cr_info{text-align: center;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+}
+
+.testframe{
+  margin: auto;
+text-align: center;
+border: 1px solid black;
+width: 800px;
+
+
+vertical-align: middle;
+}
+
+body{margin: 0;}
+
+div.content
+{
+display:inline-block;
+margin: auto;
+border: 1px solid black;
+width: 100px;
+
+}
+
+.button{
+  border: 1px solid black;
+}

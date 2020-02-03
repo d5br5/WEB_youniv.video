@@ -1,0 +1,336 @@
+*{font-family: 'Do Hyeon', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;}
+
+div{text-align: center;}
+
+
+
+h1{text-align: center;}
+
+h1.shouldlogin{font-size: 60px;
+background-color: crimson;
+height: 70px;}
+
+h1.main {
+    font-size: 90px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 40px;
+    background-color: black;
+
+} /*도형이의 의경생활*/
+
+h1.profile {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 90px;
+}  /*입대부터 지금까지*/
+
+h2.military {
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: lightcoral;
+    margin: 0;
+
+} /*전역일계산기*/
+
+.grid_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-bottom: 1px solid black;
+} /*프로필, 일정표, 면회방법 그리드*/
+
+.menu {
+    font-weight: bold;
+    font-size: 45px;
+    border: 4px solid black;
+    background-color: black;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    height: 68px;
+    line-height: 70px;
+} /*메뉴바디자인*/
+
+div.menu:hover{font-weight: bold;
+font-size: 45px;
+border: 4px solid black;
+background-color: white;
+margin: 2%;
+color: black;
+text-align: center;
+height: 68px;
+line-height: 70px;}
+
+
+body {
+    margin: 0;
+
+}
+
+.status{
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 0.9%;
+  border: 4px solid black;
+  width: 300px;
+  text-align: center;
+}
+
+.status_button{
+  font-size: 30px;
+  font-weight: bold;
+    width:100%;
+  border: 2px solid black;
+  height: 50px;
+  background-color: black;
+  color:white;
+  line-height: 45px;
+  margin: auto;
+}
+
+.status_button:hover{
+  font-size: 30px;
+  font-weight: bold;
+    width:100%;
+
+  height: 50px;
+  background-color: white;
+  color:black;
+  line-height: 45px;
+  margin: auto;
+}
+
+.grid_plan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.health_log{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.button{
+  display: inline;
+font-size: 20px;
+font-weight: bold;
+  width:150px;
+border: 2px solid black;
+background-color: black;
+color:white;
+margin: auto;
+padding: 20px;
+}
+
+.plan_button div{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: 72px;
+    line-height: 77px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-size: 40px;
+    border: 4px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.plan_button a div:hover{
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  height: 72px;
+  line-height: 77px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  font-size: 40px;
+  border: 4px solid black;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.plan_button .non_month {
+    text-decoration: line-through;
+    color: dimgray;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+
+
+#end_month {
+    background-color: gold;
+    border: 4px solid black;
+    text-decoration: none;
+    color: red;
+}
+
+#end_month:hover{
+  background-color: green;
+  border: 4px solid black;
+  text-decoration: none;
+  color: red;
+}
+
+#start_month {
+    border: 4px solid black;
+    text-decoration: none;
+    color: red;
+    background-color: black;
+}
+
+#start_month:hover{
+  border: 4px solid black;
+  text-decoration: none;
+  color: red;
+  background-color: gray;
+}
+
+.visit_box {
+    width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 2% 1% 2% 1%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+} /*면회시간-오시는길 박스*/
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    ;
+}
+
+#center{width: 500px; top: 40%; margin: auto; text-align: center; margin-top: 100px; margin-bottom: 100px;}
+
+table {
+    table-layout: fixed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.login{width: 100%; margin: auto; border: solid black 2px;}
+
+thead th {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tbody th {
+    font-size: 1.5em;
+    padding: 1em 0.5em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+td {
+    font-size: 1.2em;
+    padding: 1em 1em;
+    width: 14%;
+    height: 85px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.profile{
+  table-layout: fixed;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+table.profile td{
+  font-size: 1.2em;
+padding: 0px;
+padding-left: 30px;
+width: 270px;
+height: 30px;
+text-align: left;
+vertical-align: middle;
+}
+
+table.profile th{
+  font-size: 1.2em;
+padding: 0;
+width: 100px;
+height: 30px;
+text-align: center;
+vertical-align: middle;
+}
+
+td.logintitle{
+  width : 50%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid 2px black;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+}
+
+td.login{
+  width : 50%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid 2px black;
+}
+
+.sat {
+    color: #00F;
+} /*달력-토요일*/
+
+.sun {
+    color: #F00;
+} /*달력-일요일*/
+
+.calendar{
+    text-align: center;margin: auto;padding-left: 5%; padding-right: 5%;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    height: 120px;
+} /*각주*/
