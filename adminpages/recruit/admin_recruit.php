@@ -1,22 +1,24 @@
 <?php
-    require("./userinfo.php");
-    $conn=mysqli_connect($hostname,$username,$password,$DBname);
+    require("../../setting/admin_info.php");
+    include("../../setting/dbconn.php");
+
+
   ?>
 
 
-    <?php require("view/top.php");?>
+    <?php require("../../view/top.php");?>
 
     <a href="admin_recruit.php">
         <h1>WEB</h1>
     </a>
-
+<?php  echo "36";?>
     <table border="1">
         <tr>
             <td>rc_no</td><td>rc_title</td><td>rc_group</td><td>rc_form</td><td>rc_career</td>
             <td>rc_deadline</td><td>rc_text</td><td>rc_directory</td><td>rc_imagename</td><td>UPDATE</td><td>DELETE</td>
         </tr>
         <?php
-            $sql='select * from recruit;';
+            $sql='select * from recruit order by rc_no desc;';
             $result= mysqli_query($conn, $sql);
 
 //$row에는 DB테이블에 저장된 정보가 한줄씩 배열
@@ -57,7 +59,7 @@
     </table>
     <?php
 
-$escaped=array('rc_title'=>'제목','rc_group'=>'직군','rc_form'=>'형태(상시)','rc_career'=>'신입/경력','rc_deadline'=>'마감기한','rc_text'=>'글 내용','rc_directory'=>'저장 경로','rc_imagename'=>'파일 이름');
+$escaped=array('rc_title'=>'','rc_group'=>'','rc_form'=>'','rc_career'=>'','rc_deadline'=>'','rc_text'=>'','rc_directory'=>'','rc_imagename'=>'');
 $button='CREATE RECRUIT';
 $form_action='admin_recruit_process_create.php';
 $form_id='';
@@ -65,7 +67,7 @@ $form_id='';
 if(isset($_GET['rc_no'])){
     $filtered_id=mysqli_real_escape_string($conn, $_GET['rc_no']);
     settype($filtered_id,'integer');
-    $sql="select * from topic where rc_no={$filtered_id}";
+    $sql="select * from recruit where rc_no={$filtered_id}";
     $result= mysqli_query($conn, $sql);
 
     $row=mysqli_fetch_array($result);
@@ -103,4 +105,4 @@ if(isset($_GET['rc_no'])){
    <p>'jpg, jpeg, png, gif 파일만 허용</p>
 
 
-    <?php require("view/bottom.php"); ?>
+    <?php require("../../view/bottom.php"); ?>

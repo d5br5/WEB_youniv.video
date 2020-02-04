@@ -1,6 +1,6 @@
 <?php
 
-require("./userinfo.php");
+require("../../setting/admin_info.php");
 $conn=mysqli_connect($hostname,$username,$password,$DBname);
 settype($_POST['rc_no'],'integer');
 $filtered=array(

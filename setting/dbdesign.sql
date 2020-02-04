@@ -42,6 +42,15 @@ CREATE TABLE recruit(
 	KEY rc_title (rc_title)
 );
 
-CREATE TABLE partner(
-	
-)
+CREATE TABLE creator(
+  crt_no int(11) NOT NULL AUTO_INCREMENT,
+  crt_title varchar(30) NOT NULL DEFAULT '',
+	crt_intro text null,
+  crt_area varchar(20) NOT NULL DEFAULT '',
+  crt_link varchar(20) NOT NULL DEFAULT '',
+  crt_directory varchar(255) NOT NULL DEFAULT '',
+  crt_imagename varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (crt_no),
+	UNIQUE KEY crt_no (crt_no),
+	KEY crt_title (crt_title)
+);
