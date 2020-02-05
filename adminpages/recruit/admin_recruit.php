@@ -1,8 +1,6 @@
 <?php
     require("../../setting/admin_info.php");
     include("../../setting/dbconn.php");
-
-
   ?>
 
 
@@ -45,7 +43,7 @@
                 <td><?=$filtered['rc_text']?></td>
                 <td><?=$filtered['rc_directory']?></td>
                 <td><?=$filtered['rc_imagename']?></td>
-                <td><a href="author.php?rc_no=<?=$filtered['rc_no']?>">UPDATE</a></td>
+                <td><a href="admin_recruit_process_update.php?rc_no=<?=$filtered['rc_no']?>">UPDATE</a></td>
                 <td>
                     <form action="admin_recruit_process_delete.php" method="post" onsubmit="if(!confirm('sure?')){return false;}">
                         <input type="hidden" name="rc_no" value="<?=$filtered['rc_no']?>">

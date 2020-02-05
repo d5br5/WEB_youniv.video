@@ -8,7 +8,7 @@
 
 <div class="testframe">
   <div>
-    슬로건
+    슬로건 40
   </div>
   <div>
     누구나 행복한 교육을 받도록
@@ -30,7 +30,7 @@
   <table border="1">
       <tr>
           <td>rc_no</td><td>rc_title</td><td>rc_group</td><td>rc_form</td><td>rc_career</td>
-          <td>rc_deadline</td><td>rc_text</td><td>rc_directory</td><td>rc_imagename</td><td>UPDATE</td><td>DELETE</td>
+          <td>rc_deadline</td><td>rc_text</td><td>rc_directory</td><td>rc_imagename</td>
       </tr>
       <?php
           $sql='select * from recruit order by rc_title asc;';
@@ -52,7 +52,7 @@
           ?>
           <tr>
               <td><?=$filtered['rc_no']?></td>
-              <td><?=$filtered['rc_title']?></td>
+              <td><a href="recruit_page.php?rc_no=<?=$filtered['rc_no']?>"><?=$filtered['rc_title']?></a></td>
               <td><?=$filtered['rc_group']?></td>
               <td><?=$filtered['rc_form']?></td>
               <td><?=$filtered['rc_career']?></td>
@@ -60,17 +60,10 @@
               <td><?=$filtered['rc_text']?></td>
               <td><?=$filtered['rc_directory']?></td>
               <td><?=$filtered['rc_imagename']?></td>
-              <td><a href="author.php?rc_no=<?=$filtered['rc_no']?>">UPDATE</a></td>
-              <td>
-                  <form action="admin_recruit_process_delete.php" method="post" onsubmit="if(!confirm('sure?')){return false;}">
-                      <input type="hidden" name="rc_no" value="<?=$filtered['rc_no']?>">
-                      <input type="submit" value="DELETE">
-                  </form>
-              </td>
           </tr>
           <?php
-         }
-              ?>
+        }
+        ?>
   </table>
 </div>
 
