@@ -24,40 +24,43 @@ while($row=mysqli_fetch_array($result)){
     ?>
 
 <div class="testframe">
-  <table>
-    <tr>
-      <td>글 번호</td><td><?=$filtered['rc_no']?></td>
-    </tr>
-    <tr>
-      <td>제목</td><td><?=$filtered['rc_title']?></td>
-    </tr>
-    <tr>
-      <td>직군</td><td><?=$filtered['rc_group']?></td>
-    </tr>
-    <tr>
-      <td>형태</td><td><?=$filtered['rc_form']?></td>
-    </tr>
-    <tr>
-      <td>신입경력</td><td><?=$filtered['rc_career']?></td>
-    </tr>
-    <tr>
-      <td>마감 기한</td><td><?=$filtered['rc_deadline']?></td>
-    </tr>
-    <tr>
-      <td>글 내용</td><td><?=$filtered['rc_text']?></td>
-    </tr>
-    <tr>
-      <td>저장 경로</td><td><?=$filtered['rc_directory']?></td>
-    </tr>
-    <tr>
-      <td>사진 이름</td><td><?=$filtered['rc_imagename']?></td>
-    </tr>
-  </table>
+  <div class="board">
+    <div class="board_header_wrap">
+      <div class="board_header">
+      <div>
+        <?=$filtered['rc_title']?>
+      </div>
+      <div style="float:left">
+        <div>
+          마감기한 : <?=$filtered['rc_deadline']?>
+        </div>
+      </div>
+      <div style="float:right">
+        <div class="board_content_status">
+          형태 : <?=$filtered['rc_form']?>
+        </div>
+        <div class="board_content_status">
+          직군 : <?=$filtered['rc_group']?>
+        </div>
+        <div class="board_content_status">
+          대상 : <?=$filtered['rc_career']?>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="board_section">
+       <div style="padding:100px 0px">
+         <?=$filtered['rc_text']?>
+       </div>
+       <div class="apply_button">
+         <a href="apply_recruit_form.php?rc_no=<?=$filtered['rc_no']?>"><div class="apply_text">지원하기</div></a>
+       </div>
+    </div>
+  </div>
 </div>
-
-
           <?php
          }
               ?>
+
 
 <?php require('./view/bottom.php');?>

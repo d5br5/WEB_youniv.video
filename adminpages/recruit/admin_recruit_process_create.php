@@ -1,14 +1,19 @@
 <?php
 
 require("../../setting/admin_info.php");
-$conn=mysqli_connect($hostname,$username,$password,$DBname);
+$conn=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_db);
 
 $filtered=array(
   'rc_title'=>mysqli_real_escape_string($conn,$_POST['rc_title']),
-  'rc_group'=>mysqli_real_escape_string($conn, $_POST['rc_group']));
+  'rc_group'=>mysqli_real_escape_string($conn, $_POST['rc_group']),
+  'rc_form'=>mysqli_real_escape_string($conn, $_POST['rc_form']),
+  'rc_career'=>mysqli_real_escape_string($conn, $_POST['rc_career']),
+  'rc_deadline'=>mysqli_real_escape_string($conn, $_POST['rc_deadline']),
+  'rc_text'=>mysqli_real_escape_string($conn, $_POST['rc_text']));
 
-$sql="INSERT INTO recruit(rc_title, rc_group)
-    VALUES('{$filtered['rc_title']}','{$filtered['rc_group']}');";
+
+$sql="INSERT INTO recruit(rc_title, rc_group, rc_form, rc_career, rc_deadline, rc_text)
+    VALUES('{$filtered['rc_title']}','{$filtered['rc_group']}','{$filtered['rc_form']}','{$filtered['rc_career']}','{$filtered['rc_deadline']}','{$filtered['rc_text']}');";
 
 $result=mysqli_query($conn,$sql);
 

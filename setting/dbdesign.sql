@@ -35,8 +35,8 @@ CREATE TABLE recruit(
   rc_career varchar(30) NOT NULL DEFAULT '',
   rc_deadline datetime NOT NULL DEFAULT '2000-01-01',
   rc_text text NULL,
-  rc_directory varchar(255) NOT NULL DEFAULT '',
-  rc_imagename varchar(255) NOT NULL DEFAULT '',
+  rc_directory varchar(255) NULL,
+  rc_imagename varchar(255) NULL,
   PRIMARY KEY (rc_no),
 	UNIQUE KEY rc_no (rc_no),
 	KEY rc_title (rc_title)
@@ -48,8 +48,8 @@ CREATE TABLE creator(
 	crt_intro text null,
   crt_area varchar(20) NOT NULL DEFAULT '',
   crt_link varchar(20) NOT NULL DEFAULT '',
-  crt_directory varchar(255) NOT NULL DEFAULT '',
-  crt_imagename varchar(255) NOT NULL DEFAULT '',
+  crt_directory varchar(255) NULL,
+  crt_imagename varchar(255) NULL,
   PRIMARY KEY (crt_no),
 	UNIQUE KEY crt_no (crt_no),
 	KEY crt_title (crt_title)

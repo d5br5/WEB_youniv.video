@@ -7,37 +7,30 @@
 
 
 <div class="testframe">
-  <div>
-    슬로건 40
-  </div>
-  <div>
-    누구나 행복한 교육을 받도록
-  </div>
-</div>
-<div class="testframe">
-  <div>
-    인재영입 테이블
-  </div>
-  <div>
-    게시판 형태 깔끔하게
-  </div>
-</div>
-<div class="testframe">
-
+  <h1>행복한 교육</h1>
 </div>
 
 <div class="testframe">
-  <table border="1">
-      <tr>
-          <td>rc_no</td><td>rc_title</td><td>rc_group</td><td>rc_form</td><td>rc_career</td>
-          <td>rc_deadline</td><td>rc_text</td><td>rc_directory</td><td>rc_imagename</td>
-      </tr>
+  <h2>인재영입</h2>
+  <h3>유니브와 함께할 인재를 모십니다.</h3>
+  <br><br><br>
+
+<div class="board">
+  <ul>
+    <div class="board_row_wrap">
+    <li class="board-head">
+      <ul class="board-head-title">
+        <li class="rc_form">형태</li>
+        <li class="rc_title">모집 분야</li>
+        <li class="rc_group">직군</li>
+        <li class="rc_career">대상</li>
+      </ul>
+    </li>
+    </div>
+    <div class="board_content_row_wrap">
       <?php
           $sql='select * from recruit order by rc_title asc;';
           $result= mysqli_query($conn, $sql);
-
-//$row에는 DB테이블에 저장된 정보가 한줄씩 배열
-
       while($row=mysqli_fetch_array($result)){
           $filtered=array('rc_no'=>htmlspecialchars($row['rc_no']),
                          'rc_title'=>htmlspecialchars($row['rc_title']),
@@ -50,21 +43,22 @@
                          'rc_imagename'=>htmlspecialchars($row['rc_imagename']),
                        )
           ?>
-          <tr>
-              <td><?=$filtered['rc_no']?></td>
-              <td><a href="recruit_page.php?rc_no=<?=$filtered['rc_no']?>"><?=$filtered['rc_title']?></a></td>
-              <td><?=$filtered['rc_group']?></td>
-              <td><?=$filtered['rc_form']?></td>
-              <td><?=$filtered['rc_career']?></td>
-              <td><?=$filtered['rc_deadline']?></td>
-              <td><?=$filtered['rc_text']?></td>
-              <td><?=$filtered['rc_directory']?></td>
-              <td><?=$filtered['rc_imagename']?></td>
-          </tr>
-          <?php
-        }
-        ?>
-  </table>
+    <li class="border_content_row">
+      <a href="recruit_page.php?rc_no=<?=$filtered['rc_no']?>">
+      <div class="rc_form"><?=$filtered['rc_form']?></div>
+      <div class="rc_title"><?=$filtered['rc_title']?></div>
+      <div class="rc_group"><?=$filtered['rc_group']?></div>
+      <div class="rc_career"><?=$filtered['rc_career']?></div>
+      </a>
+    </li>
+    <?php
+  }
+  ?>
+    </div>
+  </ul>
 </div>
+</div>
+<br>
+
 
 <?php require('./view/bottom.php');?>

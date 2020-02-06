@@ -6,7 +6,7 @@
 
     <?php require("../../view/top.php");?>
 
-    <a href="admin_recruit.php">
+    <a href="../../index.php">
         <h1>WEB</h1>
     </a>
 <?php  echo "36";?>
@@ -89,14 +89,12 @@ if(isset($_GET['rc_no'])){
     <h1>POST</h1>
    <form action="<?=$form_action?>" enctype="multipart/form-data" method="post">
         <?=$form_id?>
-       <p><input type="text" name="rc_title" placeholder="rc_title" value="<?=$escaped['rc_title']?>"></p>
-       <p><textarea name="rc_group" cols="30" rows="10" placeholder="rc_group"><?=$escaped['rc_group']?></textarea></p>
-       <p><input type="text" name="rc_form" placeholder="rc_form" value="<?=$escaped['rc_form']?>"></p>
-       <p><input type="text" name="rc_career" placeholder="rc_career" value="<?=$escaped['rc_career']?>"></p>
+       <p><input type="text" name="rc_title" placeholder="글 제목" value="<?=$escaped['rc_title']?>"></p>
+       <p><input type="text" name="rc_group" placeholder="직군" value="<?=$escaped['rc_group']?>"></p>
+       <p><input type="text" name="rc_form" placeholder="형태(상시)" value="<?=$escaped['rc_form']?>"></p>
+       <p><input type="text" name="rc_career" placeholder="신입/경력" value="<?=$escaped['rc_career']?>"></p>
        <p><input type="date" name="rc_deadline" value="<?=$escaped['rc_deadline']?>"></p>
-       <p><input type="text" name="rc_text" placeholder="rc_text" value="<?=$escaped['rc_text']?>"></p>
-       <p><input type="text" name="rc_directory" placeholder="rc_directory" value="<?=$escaped['rc_directory']?>"></p>
-       <p><input type="text" name="rc_imagename" placeholder="rc_imagename" value="<?=$escaped['rc_imagename']?>"></p>
+       <p><textarea name="rc_text" cols="30" rows="10" placeholder="글 내용"><?=$escaped['rc_text']?></textarea></p>
       <?php //<input type="file" name="myfile"> ?>
         <p><input type="submit" value="<?=$button?>"></p>
    </form>

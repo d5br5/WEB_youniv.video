@@ -1,7 +1,7 @@
 <?php
 
 require("../../setting/admin_info.php");
-$conn=mysqli_connect($hostname,$username,$password,$DBname);
+$conn=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_db);
 settype($_POST['rc_no'],'integer');
 $filtered=array(
     'rc_no'=>mysqli_real_escape_string($conn,$_POST['rc_no'])
