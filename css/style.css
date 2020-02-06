@@ -4,6 +4,8 @@ nav{width: 980px;}
 section{width: 980px;}
 footer{width:980px;}
 
+table{border-collapse: collapse;}
+.wrapping{display: inline-block; width: 100%;}
 a:link{color:black;}
 a:hover{color:black;}
 a:visited{color:black;}
@@ -26,7 +28,7 @@ a:active{color:black;}
 div{text-align: center;}
 
 h1{font-size: 90px;  text-align: left;}
-h2{font-size: 60px;  text-align: left;}
+h2{font-size: 60px;  text-align: left; padding-bottom: 30px;}
 h3{font-size: 20px;  text-align: left; padding-top: 10px; padding-left: 5px;}
 
 body{margin: 0;}
@@ -60,14 +62,23 @@ li a{text-decoration: none;}
   color: white;
 }
 
+.testframetext{width:66%; float: left; margin-top: 120px;}
+.testframeframe1{width: 33%; display: inline-block; float: left; margin: auto; margin-top: 30px;}
+.testframeframe2{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px;}
+.testimage1{border: 1px solid gray; width:100px; height: 100px; margin: auto; margin-top: 100px;}
+.testimage2{border: 1px solid gray; width:100px; height: 100px; margin: auto; margin-top: 20px;}
+
 .testframe{
   margin: auto;
 text-align: center;
 border-top: 1px solid gray;
 border-bottom: 1px solid gray;
 color: black;
-padding : 200px 20px;
+padding : 70px 20px;
 }
 
 .apply_button{width: 350px; background-color: black; margin-bottom: 30px;}
 .apply_text{padding: 20px 0px; color:white;}
+
+.main_content_normal_text{padding: 10px; text-align: left;}
+.historyimage{border: 1px solid black; width: 100%; height: 350px;}
