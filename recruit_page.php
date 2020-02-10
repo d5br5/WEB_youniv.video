@@ -23,7 +23,7 @@ while($row=mysqli_fetch_array($result)){
                  )
     ?>
 
-<div class="testframe">
+<div class="divider">
   <div class="board">
     <div class="board_header_wrap">
       <div class="board_header">

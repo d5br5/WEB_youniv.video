@@ -9,11 +9,23 @@
 
 <div class="divider">
   <div>
-    회사소개
+    <h1>CLASS</h1>
   </div>
   <div>
-    유니브는 지식과 정보를 전달하는 러닝(learning) 채널을 운영합니다
+    <h2>소개</h2>
+    <h3>C-learning 소개</h3>
+    <h3>유니브클래스 소개</h3>
   </div>
+</div>
+<div class="divider">
+  <div>
+    <h2>강사소개</h2>
+  </div>
+  <div class="historyimage"></div>
+  <div>
+    <h2>강의소개</h2>
+  </div>
+  <div class="historyimage"></div>
 </div>
 
 <?php require('./view/bottom.php');?>

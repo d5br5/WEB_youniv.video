@@ -6,14 +6,18 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 
-<div class="testframe">
-  <h1>행복한 교육</h1>
-</div>
 
-<div class="testframe">
-  <h2>인재영입</h2>
-  <h3>유니브와 함께할 인재를 모십니다.</h3>
-  <br><br><br>
+
+<div class="divider">
+  <div class="main_video">
+    <div class="main_video_text">
+      슬로건
+    </div>
+  </div>
+  <br>
+  <h1>인재채용</h1>
+  <h3>유니브와 함께하실 훌륭한 유니버를 찾습니다.</h3>
+  <br>
 
 <div class="board">
   <ul>

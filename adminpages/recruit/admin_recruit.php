@@ -9,7 +9,7 @@
   <section>
 
 
-<div class="testframe">
+<div class="divider">
   <a href="../../index.php">
 <div>
   <h1 style="text-align:center">YOUNIV</h1>
@@ -94,7 +94,7 @@ if(isset($_GET['rc_no'])){
 ?>
 </div>
 
-<div class="testframe">
+<div class="divider">
 
 
     <h1 style="text-align:center">POST</h1>

@@ -7,21 +7,17 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="testframe">
+<div class="divider">
   <div>
-    MCN 사업
+    <h1>MCN 사업</h1>
   </div>
-  <div>
-
-  </div>
+  <div class="historyimage"></div>
 </div>
-<div class="testframe">
+<div class="divider">
   <div>
-    교육 콘텐츠 사업
+    <h1>교육 콘텐츠 사업</h1>
   </div>
-  <div>
-
-  </div>
+  <div class="historyimage"></div>
 </div>
 
 <?php require('./view/bottom.php');?>

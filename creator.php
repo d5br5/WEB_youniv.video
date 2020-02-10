@@ -7,22 +7,65 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="testframe">
+<div class="divider">
   <div>
-    Creator 소개 : "유니브는 경험을 콘텐츠로 만들고, 공유하는 다양한 크리에이터분들을 찾고있습니다."
+    <h1>크리에이터</h1>
+  </div>
+  <div>
+    <h3>대학/입시부터 전문지식, 라이프스타일까지 유니브와 함께 성장할 파트너를 찾습니다.</h3>
   </div>
 </div>
-<div class="testframe">
-  크리에이터 서비스 : "유니브는 크리에이터들의 성장을 위해 다양한 서비스를 지원합니다." 문구 + 이미지 (영입제안서를 고려하면 될 듯)
-</div>
-<div class="testframe">
+<div class="divider">
   <div>
-    YOUNIV 크리에이터 : 프로필 + 채널명 + 채널링크
+    <h1>서비스</h1>
+  </div>
+  <div>
+    <h3>유니브는 크리에이터들의 성장을 위해 다양한 서비스를 지원합니다.<br><br></h3>
+  </div>
+  <div>
+    <h2>매니지먼트</h2>
+    <h3>● 채널 성장을 위한 정기 컨설팅</h3>
+    <h3>● CMS 운영 및 관리</h3>
+    <h3>● YouTube 데이터 분석</h3>
+    <h3>● YouTube 관련 소식 전달 및 각종 교육</h3>
+  </div>
+  <div>
+    <h2>콘텐츠 제작 지원</h2>
+    <h3>● 촬영장비 대여</h3>
+    <h3>● 스튜디오 지원</h3>
+    <h3>● 채널아트 및 프로필 지원</h3>
+  </div>
+  <div>
+    <h2>광고/IP 비즈니스</h2>
+    <h3>● 교육시장부터 라이프스타일까지 다양한 풀의 광고주 보유</h3>
+    <h3>● 전문 광고팀 운영</h3>
+    <h3>● IP를 활용한 다양한 수익화 기회 창출</h3>
   </div>
 </div>
-<div class="testframe">
+<div class="divider">
   <div>
-    크리에이터 지원 : Contact Point 안내
+    <h1>파트너 리스트</h1>
+  </div>
+  <div>
+    <h3>이런 분들이 있습니다.</h3>
+  </div>
+  <div class="creator_wrap">
+    <div class="creator_element">
+      4열 쭉 나열
+    </div>
+  </div>
+</div>
+<div class="divider">
+  <div>
+    <h1>Contact us</h1>
+  </div>
+  <div>
+    <h2>Mail</h2>
+    <h3>support@youniv.video</h3>
+  </div>
+  <div>
+    <h2>필요 내용</h2>
+    <h3>채널명, 채널 url, 컨셉, 운영기간 등</h3>
   </div>
 </div>
 
