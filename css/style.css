@@ -68,7 +68,6 @@ width: 100px;
 color: black;
 }
 
-div.board{border-bottom: 2px solid black;}
 table{border-collapse: collapse;}
 li a{text-decoration: none;}
 
@@ -79,8 +78,9 @@ li a{text-decoration: none;}
 .board-head-title{font-size: 20px;}
 .board_content_status{float:left; padding-left: 20px;}
 
-.rc_form, .rc_group, .rc_career{float: left; width: 20%; padding: 20px 0px; font-size: inherit;}
+.rc_form, .rc_group, .rc_career{float: left; width: 20%; padding: 20px 0px; font-size: inherit; text-align: center;}
 .rc_title{float: left; width: 40%; padding: 20px 0px; text-align: left; font-size: inherit; }
+.board{border-bottom: 2px solid black; }
 
 .cr_info{text-align: center;
   font-size: 15px;
@@ -92,7 +92,7 @@ li a{text-decoration: none;}
 
 
 .apply_button{width: 350px; background-color: black; margin-bottom: 30px;}
-.apply_text{padding: 20px 0px; color:white;}
+.apply_text{padding: 20px 0px; color:white; text-align: center;}
 
 
 .historyimage{border: 1px solid black; width: 100%; height: 350px; margin-bottom: 50px;}

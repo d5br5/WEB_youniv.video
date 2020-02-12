@@ -48,6 +48,7 @@ CREATE TABLE creator(
 	crt_intro text null,
   crt_area varchar(20) NOT NULL DEFAULT '',
   crt_link varchar(20) NOT NULL DEFAULT '',
+	crt_subsc int(11) NULL,
   crt_directory varchar(255) NULL,
   crt_imagename varchar(255) NULL,
   PRIMARY KEY (crt_no),

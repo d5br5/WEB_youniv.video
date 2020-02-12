@@ -49,7 +49,11 @@ while($row=mysqli_fetch_array($result)){
     </div>
     </div>
     <div class="board_section">
-       <div style="padding:100px 0px">
+      <div class="blank"></div>
+       <div style="width:100%">
+         <img style="width:100%" src="<?='./adminpages/recruit/fileupload_recruit/'.$filtered['rc_imagename']?>" alt="구인글">
+       </div>
+       <div style="padding:5px">
          <?=$filtered['rc_text']?>
        </div>
        <div class="apply_button">

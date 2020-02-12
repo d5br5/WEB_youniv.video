@@ -1,6 +1,8 @@
 <?php
 
 require("../../setting/admin_info.php");
+require("./admin_recruit_fileupload.php");
+
 $conn=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_db);
 
 $filtered=array(
@@ -9,11 +11,16 @@ $filtered=array(
   'rc_form'=>mysqli_real_escape_string($conn, $_POST['rc_form']),
   'rc_career'=>mysqli_real_escape_string($conn, $_POST['rc_career']),
   'rc_deadline'=>mysqli_real_escape_string($conn, $_POST['rc_deadline']),
-  'rc_text'=>mysqli_real_escape_string($conn, $_POST['rc_text']));
+  'rc_text'=>mysqli_real_escape_string($conn, $_POST['rc_text']),
+  'rc_directory'=>mysqli_real_escape_string($conn, $uploads_dir),
+  'rc_imagename'=>mysqli_real_escape_string($conn, $name));
 
 
-$sql="INSERT INTO recruit(rc_title, rc_group, rc_form, rc_career, rc_deadline, rc_text)
-    VALUES('{$filtered['rc_title']}','{$filtered['rc_group']}','{$filtered['rc_form']}','{$filtered['rc_career']}','{$filtered['rc_deadline']}','{$filtered['rc_text']}');";
+
+$sql="INSERT INTO recruit(rc_title, rc_group, rc_form, rc_career, rc_deadline, rc_text, rc_directory, rc_imagename)
+    VALUES('{$filtered['rc_title']}','{$filtered['rc_group']}',
+      '{$filtered['rc_form']}','{$filtered['rc_career']}',
+      '{$filtered['rc_deadline']}','{$filtered['rc_text']}','{$filtered['rc_directory']}','{$filtered['rc_imagename']}');";
 
 $result=mysqli_query($conn,$sql);
 

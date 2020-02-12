@@ -106,7 +106,7 @@ if(isset($_GET['rc_no'])){
        <p><input type="text" name="rc_career" placeholder="신입/경력" value="<?=$escaped['rc_career']?>"></p>
        <p><input type="date" name="rc_deadline" value="<?=$escaped['rc_deadline']?>"></p>
        <p><textarea name="rc_text" cols="30" rows="10" placeholder="글 내용"><?=$escaped['rc_text']?></textarea></p>
-      <?php //<input type="file" name="myfile"> ?>
+       <?= '<input type="file" name="myfile">' ?>
         <p><input type="submit" value="<?=$button?>"></p>
    </form>
    <p>'jpg, jpeg, png, gif 파일만 허용</p>
