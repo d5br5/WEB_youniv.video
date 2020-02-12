@@ -47,12 +47,33 @@
     <h1>파트너 리스트</h1>
   </div>
   <div>
-    <h3>이런 분들이 있습니다.</h3>
+    <h3>이런 분들 이 있습니다.</h3>
   </div>
-  <div class="creator_wrap">
-    <div class="creator_element">
-      4열 쭉 나열
+  <div class="crt_wrapping">
+  <?php
+      $sql='select * from creator order by crt_name asc;';
+      $result= mysqli_query($conn, $sql);
+  while($row=mysqli_fetch_array($result)){
+      $filtered=array('crt_no'=>htmlspecialchars($row['crt_no']),
+                     'crt_name'=>htmlspecialchars($row['crt_name']),
+                     'crt_link'=>htmlspecialchars($row['crt_link']),
+                     'crt_directory'=>htmlspecialchars($row['crt_directory']),
+                     'crt_imagename'=>htmlspecialchars($row['crt_imagename'])
+                   )
+      ?>
+
+  <div class="crt_wrap_each">
+    <div class="crt_image">
+      <a href="http://www.youtube.com/channel/<?=$filtered['crt_link']?>">
+      <div class="react_box" style=<?="\"background-image: url(./adminpages/creator/fileupload_creator/".$filtered['crt_imagename'].")\""?>></div>
+      </a>
     </div>
+    <div class="crt_name"><?=$filtered['crt_name']?></div>
+  </div>
+  <?php
+  }
+  ?>
+
   </div>
 </div>
 <div class="divider">

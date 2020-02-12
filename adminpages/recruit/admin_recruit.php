@@ -14,8 +14,8 @@
 <div>
   <h1 style="text-align:center">YOUNIV</h1>
 </div>
-
   </a>
+
   <table border="1">
       <tr>
           <td>rc_no</td><td>rc_title</td><td>rc_group</td><td>rc_form</td><td>rc_career</td>

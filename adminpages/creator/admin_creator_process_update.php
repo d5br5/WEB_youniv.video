@@ -1,26 +1,39 @@
 <?php
 
-require("./userinfo.php");
-$conn=mysqli_connect($hostname,$username,$password,$DBname);
-settype($_POST['rc_no'],'integer');
+require("../../setting/admin_info.php");
+require("./admin_creator_fileupload.php");
+
+$conn=mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_db);
+settype($_POST['crt_no'],'integer');
 $filtered=array(
-    'rc_no'=>mysqli_real_escape_string($conn,$_POST['rc_no']),
-    'rc_title'=>mysqli_real_escape_string($conn,$_POST['rc_title']),
-    'rc_group'=>mysqli_real_escape_string($conn,$_POST['rc_group'])
+  'crt_name'=>mysqli_real_escape_string($conn,$_POST['crt_name']),
+  'crt_intro'=>mysqli_real_escape_string($conn, $_POST['crt_intro']),
+  'crt_area'=>mysqli_real_escape_string($conn, $_POST['crt_area']),
+  'crt_link'=>mysqli_real_escape_string($conn, $_POST['crt_link']),
+  'crt_subsc'=>mysqli_real_escape_string($conn, $_POST['crt_subsc']),
+  'crt_directory'=>mysqli_real_escape_string($conn, $uploads_dir),
+  'crt_imagename'=>mysqli_real_escape_string($conn, $name)
     );
 
-$sql="UPDATE recruit
+$sql="UPDATE creator
     SET
-    rc_title='{$filtered['rc_title']}',
-    rc_group='{$filtered['rc_group']}'
-    WHERE rc_no={$filtered['rc_no']}
+    crt_name='{$filtered['crt_name']}',
+    crt_intro='{$filtered['crt_intro']}',
+    crt_area='{$filtered['crt_area']}',
+    crt_link='{$filtered['crt_link']}',
+    crt_subsc='{$filtered['crt_subsc']}',
+    crt_directory='{$filtered['crt_directory']}',
+    crt_imagename='{$filtered['crt_imagename']}'
+    WHERE crt_no={$_POST['crt_no']}
     ;";
 
 $result=mysqli_query($conn,$sql);
 
+
+
 if ($result===false){
     echo '저장하는 과정에서 문제가 생겼습니다. 관리자에게 문의하세요';
     error_log(mysqli_error($conn));
-}else{
-    header('Location:admin_recruit.php');
-}
+}else{header('Location:admin_creator.php');}
+
+?>

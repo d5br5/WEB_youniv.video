@@ -1,5 +1,5 @@
 <?php
-$uploads_dir='./uploads';
+$uploads_dir='./fileupload_creator';
 $allowed_ext=array('jpg','jpeg','png','gif');
 $field_name='myfile';
 //설정 끝
@@ -70,28 +70,3 @@ if( !move_uploaded_file($_FILES[$field_name]['tmp_name'],$upload_file)){
 }
 
 ?>
-
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>FileUpload</title>
-</head>
-<body>
-    <h2>파일정보</h2>
-    <ul>
-        <li>파일명 : <?= $name; ?></li>
-        <li>확장자 : <?= $ext; ?></li>
-        <li>파일 형식 : <?= $_FILES[$field_name]['type']; ?></li>
-        <li>파일 크기 : <?= number_format($_FILES[$field_name]['size']); ?></li>
-
-    </ul>
-    <a href="./filedownload.php?file=<?=$name;?>">download</a>
-<?php
-$filepath=$_SERVER['DOCUMENT_ROOT'].'/uploads/'.$filename;
-echo $filepath;
- ?>
-
-</body>
-</html>

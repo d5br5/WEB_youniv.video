@@ -14,7 +14,7 @@ CREATE TABLE member (
 	KEY mb_datetime (mb_datetime)
 );
 
-alter table member add mb_phone text after mb_birth;
+alter table creator add crt_subsc int(11) null after crt_link;
 
 CREATE TABLE memo(
 	me_id int(11) not null AUTO_INCREMENT,
@@ -44,14 +44,14 @@ CREATE TABLE recruit(
 
 CREATE TABLE creator(
   crt_no int(11) NOT NULL AUTO_INCREMENT,
-  crt_title varchar(30) NOT NULL DEFAULT '',
+  crt_name varchar(30) NOT NULL DEFAULT '',
 	crt_intro text null,
   crt_area varchar(20) NOT NULL DEFAULT '',
   crt_link varchar(20) NOT NULL DEFAULT '',
-	crt_subsc int(11) NULL,
+	crt_subsc varchar(30) NULL,
   crt_directory varchar(255) NULL,
   crt_imagename varchar(255) NULL,
   PRIMARY KEY (crt_no),
 	UNIQUE KEY crt_no (crt_no),
-	KEY crt_title (crt_title)
+	KEY crt_name (crt_name)
 );
