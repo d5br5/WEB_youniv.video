@@ -48,7 +48,7 @@ while($row=mysqli_fetch_array($result)){
     </div>
     <div class="board_section">
       <div class="blank"></div>
-       <div style="width:100%">
+       <div style="width:80%; margin:auto;">
          <img style="width:100%" src="<?='./adminpages/recruit/fileupload_recruit/'.$filtered['rc_imagename']?>" alt="구인글">
        </div>
        <div style="padding:5px">
