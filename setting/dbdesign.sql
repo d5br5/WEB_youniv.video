@@ -44,10 +44,10 @@ CREATE TABLE recruit(
 
 CREATE TABLE creator(
   crt_no int(11) NOT NULL AUTO_INCREMENT,
-  crt_name varchar(30) NOT NULL DEFAULT '',
+  crt_name varchar(70) NOT NULL DEFAULT '',
 	crt_intro text null,
-  crt_area varchar(20) NOT NULL DEFAULT '',
-  crt_link varchar(20) NOT NULL DEFAULT '',
+  crt_area varchar(50) NOT NULL DEFAULT '',
+  crt_link varchar(150) NOT NULL DEFAULT '',
 	crt_subsc varchar(30) NULL,
   crt_directory varchar(255) NULL,
   crt_imagename varchar(255) NULL,

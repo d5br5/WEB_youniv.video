@@ -1,9 +1,9 @@
 *{font-family: 'Do Hyeon', sans-serif; font-family: 'Noto Sans KR', sans-serif; margin: auto; font-weight: bold;}
 body{margin: 0;}
 
-nav{width: 1100px;}
-section{width: 1100px;}
-footer{width:1100px;}
+nav{width: 1200px;}
+section{width: 1200px;}
+footer{width:1200px;}
 
 table{border-collapse: collapse;}
 .wrapping{display: inline-block; width: 100%;}
@@ -14,10 +14,9 @@ a:active{color:black;}
 
 .divider{
 margin: auto;
-border-top: 1px solid gray;
-border-bottom: 1px solid gray;
+
 color: black;
-padding : 70px 20px;
+padding : 40px 20px;
 }
 
 .original_logo{display: inline-block; border: 1px solid gray; width:200px; height: 200px; float: left; margin: auto;}
@@ -39,8 +38,25 @@ padding : 70px 20px;
 
 .center{text-align: center;}
 h1{font-size: 60px; padding-bottom: 10px;}
-h2{font-size: 35px;	margin: 20px 0px 40px 0px;}
+h1.title_divider{ overflow: hidden;}
+h2{font-size: 35px;	margin: 20px 0px 40px 0px; overflow: hidden;}
 h3{font-size: 20px; padding-bottom: 20px; line-height: 35px;}
+h1.title_divider:after{ content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 50px;
+    border-top: 10px solid black;}
+h2:after{ content:"";
+		    display: inline-block;
+		    height: 0.5em;
+		    vertical-align: bottom;
+		    width: 100%;
+		    margin-right: -100%;
+		    margin-left: 30px;
+		    border-top: 7px solid black;}
 
 .blank{width: 100%; height: 50px; display: inline-block;}
 
@@ -54,6 +70,7 @@ h3{font-size: 20px; padding-bottom: 20px; line-height: 35px;}
 
 .image_mini{border: 1px solid gray; width:100px; height: 100px; margin: auto; margin-top: 20px;}
 .main_content_normal_text{padding: 0px 25px; text-align: left;}
+.creator_content_normal_text{padding: 0px 40px; text-align: left;}
 
 .historyimage{border: 1px solid black; width: 100%; height: 350px; margin-bottom: 50px;}
 
@@ -78,12 +95,12 @@ color: black;
 table{border-collapse: collapse;}
 li a{text-decoration: none;}
 
-.board_header_wrap{border-bottom: 2px solid black;border-top: 2px solid black;}
+.board_header_wrap{border-bottom: 1px solid gray; border-top: 2px solid black;}
 .board_header{width:100%; display: inline-block; padding:20px 2px;}
 
 .board_row_wrap{padding: 0px 0px; border-top: 2px solid black; border-bottom: 2px solid black;}
 .board-head-title{font-size: 20px;}
-.board_content_status{float:left; padding-left: 20px;}
+.board_content_status{float:left; padding-left: 20px; padding-right: 20px;}
 
 .rc_form, .rc_group, .rc_career{float: left; width: 20%; padding: 20px 0px; font-size: inherit; text-align: center;}
 .rc_title{float: left; width: 40%; padding: 20px 0px; text-align: left; font-size: inherit; }
@@ -104,6 +121,9 @@ background-position: center; background-size: contain; margin: 0;}
 .react_box_text{position: absolute;}
 
 .crt_wrapping{display: inline-block; width: 100%;}
-.crt_wrap_each{width: 29%; float: left; margin: 2%;}
-.crt_image{width: 100%;}
-.crt_name{text-align: center; font-size: 30px; margin: 5px 0px;}
+.crt_wrap_each{width: 21%; float: left; margin: 2%;}
+.crt_image{width: 100%; border-radius: 70%; overflow: hidden; border: solid 1px gray;}
+.crt_name{text-align: center; font-size: 20px; margin: 5px 0px;}
+
+
+.contact_content{float: left;width: 50%; display: inline-block;}

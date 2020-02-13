@@ -11,43 +11,71 @@
   <div>
     <h1>크리에이터</h1>
   </div>
+
   <div>
     <h3>대학/입시부터 전문지식, 라이프스타일까지 유니브와 함께 성장할 파트너를 찾습니다.</h3>
   </div>
 </div>
 <div class="divider">
   <div>
-    <h1>서비스</h1>
+    <h2>서비스</h2>
   </div>
   <div>
     <h3>유니브는 크리에이터들의 성장을 위해 다양한 서비스를 지원합니다.<br><br></h3>
   </div>
-  <div>
-    <h2>매니지먼트</h2>
-    <h3>● 채널 성장을 위한 정기 컨설팅</h3>
-    <h3>● CMS 운영 및 관리</h3>
-    <h3>● YouTube 데이터 분석</h3>
-    <h3>● YouTube 관련 소식 전달 및 각종 교육</h3>
+  <div class="wrapping">
+
+        <div class="wrapper_three">
+          <div class="image_mini"></div>
+          <div>
+            <h3 class="center">매니지먼트</h3>
+          </div>
+          <div class="creator_content_normal_text">
+            <p>
+              > 채널 성장을 위한 정기 컨설팅 <br>
+              > CMS 운영 및 관리 <br>
+              > YouTube 데이터 분석 <br>
+              > YouTube 관련 소식 전달 및 각종 교육
+            </p>
+          </div>
+        </div>
+
+        <div class="wrapper_three">
+          <div class="image_mini"></div>
+          <div>
+            <h3 class="center">콘텐츠 제작 지원</h3>
+          </div>
+          <div class="creator_content_normal_text">
+            <p>
+            > 촬영장비 대여 <br>
+            > 스튜디오 지원 <br>
+            > 채널아트 및 프로필 지원 </p>
+          </div>
+        </div>
+
+        <div class="wrapper_three">
+          <div class="image_mini"></div>
+          <div>
+            <h3 class="center">광고/IP 비즈니스</h3>
+          </div>
+          <div class="creator_content_normal_text">
+            <p>
+            > 교육시장부터 라이프스타일까지<br>
+            &nbsp;&nbsp; 다양한 풀의 광고주 보유 <br>
+            > 전문 광고팀 운영 <br>
+            > IP를 활용한 다양한 수익화 기회 창출 </p>
+          </div>
+        </div>
+
   </div>
-  <div>
-    <h2>콘텐츠 제작 지원</h2>
-    <h3>● 촬영장비 대여</h3>
-    <h3>● 스튜디오 지원</h3>
-    <h3>● 채널아트 및 프로필 지원</h3>
-  </div>
-  <div>
-    <h2>광고/IP 비즈니스</h2>
-    <h3>● 교육시장부터 라이프스타일까지 다양한 풀의 광고주 보유</h3>
-    <h3>● 전문 광고팀 운영</h3>
-    <h3>● IP를 활용한 다양한 수익화 기회 창출</h3>
-  </div>
+
 </div>
 <div class="divider">
   <div>
-    <h1>파트너 리스트</h1>
+    <h2>파트너 리스트</h2>
   </div>
   <div>
-    <h3>이런 분들 이 있습니다.</h3>
+    <h3>유니브와 함께하는 파트너분들을 소개합니다. </h3>
   </div>
   <div class="crt_wrapping">
   <?php
@@ -76,18 +104,19 @@
 
   </div>
 </div>
-<div class="divider">
+<div class="divider" style="display:inline-block; width:100%;">
   <div>
-    <h1>Contact us</h1>
+    <h2>신규 파트너 문의</h2>
   </div>
-  <div>
-    <h2>Mail</h2>
-    <h3>support@youniv.video</h3>
+  <div class="contact_content">
+    <h3>Mail</h3>
+    <p>support@youniv.video</p>
   </div>
-  <div>
-    <h2>필요 내용</h2>
-    <h3>채널명, 채널 url, 컨셉, 운영기간 등</h3>
+  <div class="contact_content">
+    <h3>필요 내용</h3>
+    <p>채널명, 채널 url, 컨셉, 운영기간 등을 포함해주세요.</p>
   </div>
 </div>
+<div class="blank"></div>
 
 <?php require('./view/bottom.php');?>

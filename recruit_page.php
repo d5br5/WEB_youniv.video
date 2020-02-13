@@ -27,23 +27,21 @@ while($row=mysqli_fetch_array($result)){
   <div class="board">
     <div class="board_header_wrap">
       <div class="board_header">
-      <div>
+      <div style="font-size:30px">
         <?=$filtered['rc_title']?>
       </div>
       <div style="float:left">
-        <div>
-          마감기한 : <?=$filtered['rc_deadline']?>
-        </div>
+
       </div>
       <div style="float:right">
         <div class="board_content_status">
-          형태 : <?=$filtered['rc_form']?>
+          형태 &nbsp; <span style="font-weight:normal"><?=$filtered['rc_form']?></span>
         </div>
         <div class="board_content_status">
-          직군 : <?=$filtered['rc_group']?>
+          직군 &nbsp; <span style="font-weight:normal"><?=$filtered['rc_group']?></span>
         </div>
         <div class="board_content_status">
-          대상 : <?=$filtered['rc_career']?>
+          대상 &nbsp; <span style="font-weight:normal"><?=$filtered['rc_career']?></span>
         </div>
       </div>
     </div>

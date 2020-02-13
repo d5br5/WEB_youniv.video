@@ -19,7 +19,7 @@
 
 <div class="divider">
   <div>
-    <h1>What We Do</h1>
+    <h1 class="title_divider">What We Do</h1>
   </div>
   <div class="wrapping">
     <a href="original.php">
@@ -60,7 +60,7 @@
 
 <div class="divider">
   <div>
-    <h1>BUSINESS</h1>
+    <h1 class="title_divider">BUSINESS</h1>
   </div>
   <div class="wrapping">
     <div class="wrapper_two">
@@ -86,14 +86,15 @@
 
 <div class="divider">
   <div>
-    <h1>HISTORY</h1>
+    <h1 class="title_divider">HISTORY</h1>
   </div>
   <img src="./img/youniv_history.png" alt="유니브 역사 이미지" style="width:100%">
 </div>
 <div class="divider">
   <div>
-    <h1>오시는 길</h1>
+    <h1 class="title_divider">오시는 길</h1>
   </div>
+  <p> <br></p>
   <div class="wrapping">
     <div class="wrap_contact_map">
         <div id="map" style="width:100%;height:300px;"></div>
@@ -114,6 +115,7 @@
     </div>
   </div>
 </div>
+<div class="blank"></div>
 
 <script>
 var mapOptions = {center: new naver.maps.LatLng(37.507280, 127.056940),zoom: 16};
