@@ -26,9 +26,11 @@
   <div class="wrapping">
 
         <div class="wrapper_three">
+          <div class="wrap_image_title">
           <div class="image_mini"></div>
           <div>
             <h3 class="center">매니지먼트</h3>
+          </div>
           </div>
           <div class="creator_content_normal_text">
             <p>
@@ -41,9 +43,11 @@
         </div>
 
         <div class="wrapper_three">
+          <div class="wrap_image_title">
           <div class="image_mini"></div>
           <div>
             <h3 class="center">콘텐츠 제작 지원</h3>
+          </div>
           </div>
           <div class="creator_content_normal_text">
             <p>
@@ -54,9 +58,11 @@
         </div>
 
         <div class="wrapper_three">
+          <div class="wrap_image_title">
           <div class="image_mini"></div>
           <div>
             <h3 class="center">광고/IP 비즈니스</h3>
+          </div>
           </div>
           <div class="creator_content_normal_text">
             <p>
@@ -104,7 +110,7 @@
 
   </div>
 </div>
-<div class="divider" style="display:inline-block; width:100%;">
+<div class="divider">
   <div>
     <h2>신규 파트너 문의</h2>
   </div>
@@ -114,7 +120,7 @@
   </div>
   <div class="contact_content">
     <h3>필요 내용</h3>
-    <p>채널명, 채널 url, 컨셉, 운영기간 등을 포함해주세요.</p>
+    <p>채널명, 채널 url, 컨셉, 운영기간 등.</p>
   </div>
 </div>
 <div class="blank"></div>

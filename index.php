@@ -24,9 +24,11 @@
   <div class="wrapping">
     <a href="original.php">
         <div class="wrapper_three">
-          <div class="image_mini"></div>
-          <div>
-            <h3 class="center">O&O</h3>
+          <div class="wrap_image_title">
+            <div class="image_mini"></div>
+            <div>
+              <h3 class="center">O&O</h3>
+            </div>
           </div>
           <div class="main_content_normal_text">
             <p>유니브는 학생들이 공부를 즐겁게 할 수 있도록 도와주는 O&O 채널들을 운영하며, 이러한 경험을 통해 YouTube 및 채널 운영에 대한 인사이트를 전면에서 쌓고 있습니다.</p>
@@ -35,9 +37,11 @@
       </a>
       <a href="creator.php">
         <div class="wrapper_three">
-          <div class="image_mini"></div>
-          <div>
-            <h3 class="center">크리에이터</h3>
+          <div class="wrap_image_title">
+            <div class="image_mini"></div>
+            <div>
+              <h3 class="center">크리에이터</h3>
+            </div>
           </div>
           <div class="main_content_normal_text">
             <p>대학/입시부터 전문지식, 라이프스타일까지 유니브는 자신의 지식과 경험을 공유하는 다양한 크리에이터 분들과 파트너십을 맺어 채널 관리를 도와드리고 있습니다. </p>
@@ -46,9 +50,11 @@
       </a>
       <a href="class.php">
         <div class="wrapper_three">
+          <div class="wrap_image_title">
           <div class="image_mini"></div>
           <div>
             <h3 class="center">클래스</h3>
+          </div>
           </div>
           <div class="main_content_normal_text">
             <p>유니브는 YouTube와 뉴미디어에 맞는 유익하며 동시에 재미있는 교육 콘텐츠를 합리적인 가격에 제공합니다. YouTube에서 공부해보세요. </p>
