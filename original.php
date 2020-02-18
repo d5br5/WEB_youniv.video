@@ -23,7 +23,7 @@
         <h1 style="display:inline-block">연고티비</h1>
         <h3 style="display:inline-block">(구독자 33만명, 유튜브 누적 조회수 1억)</h3>
         <p>
-          연고티비는 교육(Edu)에 엔터테인먼트(Entertainment)를 결합한 "에듀테인먼트(Edutainment)" 채널로 중·고등학생 구독자들을 대상으로 연고대에 대한 다양한 간접체험, 입시 공부에 대한 다양한 정보, 학생 라이프스타일에 대한 공감 콘텐츠를 제작하고 있습니다. <br><br>
+          연고티비는 교육(Edu)에 엔터테인먼트(Entertainment)를 결합한 "에듀테인먼트(Edutainment)" 채널로 중·고등학생 구독자들을 대상으로 연고대에 대한 간접체험, 입시 공부에 대한 정보, 학생 라이프스타일에 대한 공감 콘텐츠를 제작하고 있습니다. <br><br>
           입시와 공부 이야기는 재미없다는는 편견을 부수기 위해, 고단한 수험생활에 활력을 불어넣어 드리기 위해, 먼저 그 길을 걸어온 형, 오빠, 누나, 언니들이 재미있고 친근하게 다가가겠습니다.
         </p>
   </div>
@@ -46,9 +46,9 @@
     <h2>대표 콘텐츠</h2>
   </div>
   <div class="wrapping">
-    <iframe width="33%" height="220" src="https://www.youtube.com/embed/QAHmE3Guz-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="33%" height="220" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="33%" height="220" src="https://www.youtube.com/embed/GPhGZbAusQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="33%" height="215" src="https://www.youtube.com/embed/QAHmE3Guz-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="33%" height="215" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="33%" height="215" src="https://www.youtube.com/embed/GPhGZbAusQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 <div class="blank"></div>
@@ -78,9 +78,9 @@
         <h2>대표 콘텐츠</h2>
       </div>
       <div class="wrapping">
-        <iframe width="33%" height="220px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="220px" src="https://www.youtube.com/embed/6rBXDz8jL-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="220px" src="https://www.youtube.com/embed/2--CHt7wFIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/6rBXDz8jL-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/2--CHt7wFIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
   </div>
   <div class="blank"></div>

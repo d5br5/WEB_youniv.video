@@ -112,13 +112,13 @@
     </div>
     <div class="wrap_contact_address">
         <div class="contact_address_title">
-          <p><br><br><br>주 소<br></p>
+          <p><br>주 소<br></p>
           <p><br>전화번호<br></p>
           <p><br>팩스번호<br></p>
           <p><br>이메일</p>
         </div>
         <div class="contact_address_text">
-          <p><br><br><br>서울 강남구 테헤란로 501 VPLEX 411호<br></p>
+          <p><br>서울 강남구 테헤란로 501 VPLEX 411호<br></p>
           <p><br>02-508-8866<br></p>
           <p><br>02-508-8867<br></p>
           <p><br>contact@youniv.video</p>

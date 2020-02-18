@@ -34,10 +34,10 @@
           </div>
           <div class="creator_content_normal_text">
             <p>
-              > 채널 성장을 위한 정기 컨설팅 <br>
-              > CMS 운영 및 관리 <br>
-              > 유튜브 데이터 분석 <br>
-              > 유튜브 관련 소식 전달 및 교육
+              	&middot; 채널 성장을 위한 정기 컨설팅 <br>
+              	&middot; CMS 운영 및 관리 <br>
+              	&middot; 유튜브 데이터 분석 <br>
+              	&middot; 유튜브 관련 소식 전달 및 교육
             </p>
           </div>
         </div>
@@ -51,9 +51,9 @@
           </div>
           <div class="creator_content_normal_text" id="crt_text_short">
             <p>
-            > 촬영장비 대여 <br>
-            > 스튜디오 지원 <br>
-            > 채널아트 및 프로필 지원 </p>
+            	&middot; 촬영장비 대여 <br>
+            	&middot; 스튜디오 지원 <br>
+            	&middot; 채널아트 및 프로필 지원 </p>
           </div>
         </div>
 
@@ -66,10 +66,10 @@
           </div>
           <div class="creator_content_normal_text">
             <p>
-            > 교육부터 라이프스타일까지<br>
+            	&middot; 교육부터 라이프스타일까지<br>
             &nbsp;&nbsp; 다양한 시장의 광고주 보유 <br>
-            > 전문 광고팀 운영 <br>
-            > IP를 활용한 수익화 기회 창출 </p>
+            	&middot; 전문 광고팀 운영 <br>
+            	&middot; IP를 활용한 수익화 기회 창출 </p>
           </div>
         </div>
 
@@ -120,7 +120,7 @@
   </div>
   <div class="contact_content">
     <h3>필요 내용</h3>
-    <p>채널명, 채널 url, 컨셉, 운영기간 등.</p>
+    <p>채널명, 채널 url, 컨셉, 운영기간 등</p>
   </div>
 </div>
 <div class="blank"></div>

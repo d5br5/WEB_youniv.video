@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="./img/youniv_ci.png">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/function.css" rel="stylesheet" type="text/css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
