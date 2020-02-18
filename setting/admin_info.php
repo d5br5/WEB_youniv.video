@@ -17,8 +17,6 @@
   $mysql_db="homepage";
   //집, 회사
 
-  //$mysql_user="d5br5test";
-  //서버
 
 
 //$mysql_host,$mysql_user,$mysql_password,$mysql_db

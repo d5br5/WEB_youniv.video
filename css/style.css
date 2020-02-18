@@ -19,17 +19,19 @@ color: black;
 padding : 40px 20px;
 }
 
-.original_logo{display: inline-block; border: 1px solid gray; width:200px; height: 200px; float: left; margin: auto;}
+.original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%; width:230px; float: left; margin-right: 6%; margin-top: 1%;}
+.original_text_wrap{display: inline-block; float: right; text-align: left; width: 77%;}
+.original_logo_wrap{display: inline-block; width: 20%;}
 
     /* 화면 너비 0 ~ 1306px ~ PC*/
 
 #footer_wrap{background-color: black;}
-#nav_wrap{background-color: white; padding: 20px 0px;}
-#section_wrap{background-color: white;}
+#nav_wrap{background-color: white; padding: 20px 0px; top:0; position: fixed; left: 50%; margin-left: -600px; z-index: 5;}
+#section_wrap{background-color: white; padding-top : 95px;}
 
 
 .center{text-align: center;}
-h1{font-size: 60px; padding-bottom: 10px;}
+h1{font-size: 60px; padding-bottom: 5px;}
 h1.title_divider{ overflow: hidden;}
 h2{font-size: 35px;	margin: 20px 0px 40px 0px; overflow: hidden;}
 h3{font-size: 20px; padding-bottom: 20px; line-height: 35px;}
@@ -58,11 +60,13 @@ h2:after{ content:"";
 
 .wrapping{display: inline-block;}
 .wrapper_three{width: 33%; display: inline-block; float: left; margin: auto; margin-top: 30px;}
-.wrapper_two{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px;}
+.wrapper_two{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px; text-align: center;}
 
-.image_mini{border: 1px solid gray; width:100px; height: 100px; margin: auto; margin-top: 20px;}
+.wrap_image_title{text-align: center;}
+.image_mini{width:100px; margin: auto; margin-top: 20px;}
 .main_content_normal_text{padding: 0px 25px; text-align: left;}
-.creator_content_normal_text{padding: 0px 40px; text-align: left;}
+.creator_content_normal_text{width: 220px; margin: auto; text-align: left;}
+#crt_text_short{width:180px;}
 
 .historyimage{border: 1px solid black; width: 100%; height: 350px; margin-bottom: 50px;}
 
@@ -71,8 +75,7 @@ h2:after{ content:"";
 .contact_address_title{display: inline-block; float: left; width: 25%;}
 .contact_address_text{display: inline-block; float: right; width: 75%;}
 
-.original_text_wrap{display: inline-block; float: right; text-align: left; width: 77%;}
-.original_logo_wrap{display: inline-block; width: 20%;}
+
 
 
 div.content
@@ -110,7 +113,6 @@ li a{text-decoration: none;}
 /*크리에이터 리스트*/
 .react_box{position:relative; width: 100%; padding-bottom: 100%;
 background-position: center; background-size: contain; margin: 0;}
-.react_box_text{position: absolute;}
 
 .crt_wrapping{display: inline-block; width: 100%;}
 .crt_wrap_each{width: 21%; float: left; margin: 2%;}
@@ -120,23 +122,40 @@ background-position: center; background-size: contain; margin: 0;}
 .contact_content{float: left;width: 40%; display: inline-block;}
 
 
-@media (max-width: 1306px){nav, section, footer {width: 85%;} .original_logo{width: 100%}}
+@media (max-width: 1306px){
+  nav, section, footer {width: 95%;}
+  #nav_wrap{left: 50%; margin-left: -48%;}
+  .wrap_contact_map{width: 49%;}
+  .wrap_contact_address{width: 49%; margin-left: 2%;}
+
+}
+
 /* 화면 너비 0 ~ 768px 태블릿 */
 @media (max-width: 850px){
 	nav, section, footer {width: 94%;}
 	.crt_wrap_each{width: 29%; float: left; margin: 2%;}
-	.wrap_image_title{float: left; display: inline-block; width: 25%;}
+	.wrap_image_title{float: left; display: inline-block; width: 25%; margin-right: 5%;}
+  .image_mini{width:60px; margin: auto; margin-top: 20px;}
 	.contact_content{float: left; width: 100%; display: inline-block; margin-bottom: 30px;}
-	.creator_content_normal_text{padding: 0px 40px; text-align: left; padding-top: 25px; margin-left: 30px;}
-	.wrapper_three{width: 100%; display: inline-block; float: left; margin: auto; margin-top: 30px;}
+	.creator_content_normal_text{padding: 0px 40px; text-align: left; padding-top: 25px; margin-left: 30px; width:80%;}
+  #crt_text_short{width:80%;}
+  .wrapper_three{width: 100%; display: inline-block; float: left; margin: auto; margin-top: 30px; padding-left: 10%;}
 	.main_content_normal_text{padding: 0px 25px; text-align: left; padding-top: 35px;}
 	.wrap_contact_map{display: inline-block; width: 100%;}
-	.wrap_contact_address{display: inline-block; width: 80%; margin-left: 20%; height: 300px; }
+	.wrap_contact_address{display: inline-block; width: 90%; margin-left: 10%; height: 300px; }
+
+  iframe{width: 100%; height: 400px;}
 
 }
 /* 화면 너비 0 ~ 480px 스마트폰*/
 @media (max-width: 520px){
+  h1{font-size: 40px;}
+  h2{font-size: 27px;}
+  h3{font-size: 16px; padding-bottom: 5px;}
+  p{font-size: 14px;}
 	nav, section, footer {width: 100%;}
 	.crt_wrap_each{width: 46%; float: left; margin: 2%;}
+  .wrap_contact_address{width: 95%; margin-left: 5%; height: 300px; }
+  iframe{height: 200px;}
 
 }

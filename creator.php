@@ -27,7 +27,7 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-          <div class="image_mini"></div>
+            <img class="image_mini" src="./img/management.png" alt="매니지먼트">
           <div>
             <h3 class="center">매니지먼트</h3>
           </div>
@@ -36,20 +36,20 @@
             <p>
               > 채널 성장을 위한 정기 컨설팅 <br>
               > CMS 운영 및 관리 <br>
-              > YouTube 데이터 분석 <br>
-              > YouTube 관련 소식 전달 및 각종 교육
+              > 유튜브 데이터 분석 <br>
+              > 유튜브 관련 소식 전달 및 교육
             </p>
           </div>
         </div>
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-          <div class="image_mini"></div>
+            <img class="image_mini" src="./img/studio.png" alt="스튜디오">
           <div>
             <h3 class="center">콘텐츠 제작 지원</h3>
           </div>
           </div>
-          <div class="creator_content_normal_text">
+          <div class="creator_content_normal_text" id="crt_text_short">
             <p>
             > 촬영장비 대여 <br>
             > 스튜디오 지원 <br>
@@ -59,17 +59,17 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-          <div class="image_mini"></div>
+            <img class="image_mini" src="./img/advertisement.png" alt="광고">
           <div>
             <h3 class="center">광고/IP 비즈니스</h3>
           </div>
           </div>
           <div class="creator_content_normal_text">
             <p>
-            > 교육시장부터 라이프스타일까지<br>
-            &nbsp;&nbsp; 다양한 풀의 광고주 보유 <br>
+            > 교육부터 라이프스타일까지<br>
+            &nbsp;&nbsp; 다양한 시장의 광고주 보유 <br>
             > 전문 광고팀 운영 <br>
-            > IP를 활용한 다양한 수익화 기회 창출 </p>
+            > IP를 활용한 수익화 기회 창출 </p>
           </div>
         </div>
 
@@ -98,7 +98,7 @@
 
   <div class="crt_wrap_each">
     <div class="crt_image">
-      <a href="http://www.youtube.com/channel/<?=$filtered['crt_link']?>">
+      <a href="http://www.youtube.com/channel/<?=$filtered['crt_link']?>" target="_blank">
       <div class="react_box" style=<?="\"background-image: url(./adminpages/creator/fileupload_creator/".$filtered['crt_imagename'].")\""?>></div>
       </a>
     </div>

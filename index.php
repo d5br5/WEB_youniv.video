@@ -21,11 +21,14 @@
   <div>
     <h1 class="title_divider">What We Do</h1>
   </div>
+<div class="blank"></div>
+
   <div class="wrapping">
     <a href="original.php">
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <div class="image_mini"></div>
+            <img class="image_mini" src="./img/o_o.png" alt="O_O">
+
             <div>
               <h3 class="center">O&O</h3>
             </div>
@@ -38,7 +41,7 @@
       <a href="creator.php">
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <div class="image_mini"></div>
+            <img class="image_mini" src="./img/creator.png" alt="creator">
             <div>
               <h3 class="center">크리에이터</h3>
             </div>
@@ -51,7 +54,7 @@
       <a href="class.php">
         <div class="wrapper_three">
           <div class="wrap_image_title">
-          <div class="image_mini"></div>
+          <img class="image_mini" src="./img/math.png" alt="class">
           <div>
             <h3 class="center">클래스</h3>
           </div>
@@ -64,22 +67,24 @@
   </div>
 </div>
 
+<div class="blank"></div>
 <div class="divider">
   <div>
     <h1 class="title_divider">BUSINESS</h1>
   </div>
+  <div class="blank"></div>
   <div class="wrapping">
     <div class="wrapper_two">
-      <div class="image_mini"></div>
+      <img class="image_mini" src="./img/branded.png" alt="bdc">
       <div>
         <h3 style="text-align:center">BDC</h3>
       </div>
       <div>
-        <p style="text-align:center">BDC 소개</p>
+        <p>BDC 소개</p>
       </div>
     </div>
     <div class="wrapper_two">
-      <div class="image_mini"></div>
+      <img class="image_mini" src="./img/ip.png" alt="ip">
       <div>
         <h3 style="text-align:center">IP</h3>
       </div>
@@ -89,7 +94,7 @@
     </div>
   </div>
 </div>
-
+<div class="blank"></div>
 <div class="divider">
   <div>
     <h1 class="title_divider">HISTORY</h1>
