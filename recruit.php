@@ -33,7 +33,7 @@
     </div>
     <div class="board_content_row_wrap">
       <?php
-          $sql='select * from recruit order by rc_title asc;';
+          $sql='select * from recruit order by rc_no desc;';
           $result= mysqli_query($conn, $sql);
       while($row=mysqli_fetch_array($result)){
           $filtered=array('rc_no'=>htmlspecialchars($row['rc_no']),

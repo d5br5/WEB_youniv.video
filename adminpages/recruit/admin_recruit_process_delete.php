@@ -8,15 +8,16 @@ $filtered=array(
 );
 
 
-$sql="DELETE FROM RECRUIT
-    WHERE rc_no={$filtered['rc_no']}
-    ;";
+$sql="DELETE FROM recruit WHERE rc_no={$filtered['rc_no']};";
 
 $result=mysqli_query($conn,$sql);
 
 if ($result===false){
-    echo '저장하는 과정에서 문제가 생겼습니다. 관리자에게 문의하세요';
+
+
+    echo 'error happened!';
     error_log(mysqli_error($conn));
+
 }else{
     header('Location:admin_recruit.php');
 }

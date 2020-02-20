@@ -14,6 +14,8 @@ a:hover{color:black;}
 a:visited{color:black;}
 a:active{color:black;}
 
+.nav_button{margin: 0 10px;}
+
 .divider{
 margin: auto;
 
@@ -78,6 +80,7 @@ h2:after{ content:"";
 .wrap_contact_address{display: inline-block; float: right; width: 37%; margin-left: 3%; height: 300px; vertical-align: middle;}
 .contact_address_title{display: inline-block; float: left; width: 25%;}
 .contact_address_text{display: inline-block; float: right; width: 75%;}
+.contact_address_text > p {font-weight: normal;}
 
 
 
@@ -115,8 +118,8 @@ li a{text-decoration: none;}
 .apply_text{padding: 20px 0px; color:white; text-align: center;}
 
 .rpr_button{width: 100px; background-color: black; margin-top: 20px; margin-left: 0; float: left;}
-.rpr_button_white{padding-left: 20px; padding-right: 20px; background-color: white; border: 1px black solid; width: 500px;
-      margin-top: 20px; margin-left: 0; float:right; margin-right: 1%;}
+.rpr_button_white{background-color: white; width: 440px; padding-left: 20px;
+      margin-top: 20px; margin-left: 0; float:left; margin-right: 1%;}
 .rpr_text{padding: 10px 0px; color:white; text-align: center;}
 .rpr_text_white{padding: 9px 0px; color:black; text-align: center;}
 

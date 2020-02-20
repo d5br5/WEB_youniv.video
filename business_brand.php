@@ -8,9 +8,19 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 <div class="divider">
-  <div>
-    <h1>광고 사업</h1>
+
+  <div id="business_navi">
+    <a href="business_brand.php">
+    <div class="business_menu_active">
+      광고 사업
+    </div></a>
+    <a href="business_ip.php">
+    <div class="business_menu">
+      IP 사업
+    </div></a>
   </div>
+
+<div class="blank"></div>
   <div class="blank"></div>
   <div>
     <p style="text-align:center" class="business_copy">유니브의 콘텐츠 역량을 기반으로 브랜드 파워를 강화합니다.</p>

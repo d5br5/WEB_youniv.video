@@ -9,6 +9,11 @@
   <section>
 
 
+    <?php if(isset($_SESSION['ss_mb_id'])){
+    $mb_id=$_SESSION['ss_mb_id'];
+       ?>
+
+
 <div class="divider">
   <a href="../../index.php">
 <div>
@@ -111,5 +116,16 @@ if(isset($_GET['rc_no'])){
    </form>
    <p>'jpg, jpeg, png, gif 파일만 허용</p>
 </div>
-</section>
+
+<?php
+}
+else
+{
+echo "<script> alert('로그인해주세요.');</script>";
+echo "<script> location.replace('../login.php');</script>";
+?>
+
+<?php } ?>
+
+
     <?php require("../../view/bottom.php"); ?>

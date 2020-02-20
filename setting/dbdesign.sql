@@ -14,6 +14,17 @@ CREATE TABLE member (
 	KEY mb_datetime (mb_datetime)
 );
 
+
+CREATE TABLE younivmember(
+  mb_no int(11) NOT NULL AUTO_INCREMENT,
+  mb_id varchar(50) NOT NULL DEFAULT '',
+  mb_password varchar(20) NOT NULL DEFAULT '',
+  mb_name varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY (mb_no),
+	UNIQUE KEY mb_no (mb_no),
+	KEY mb_id (mb_id)
+);
+
 alter table creator add crt_subsc int(11) null after crt_link;
 
 CREATE TABLE memo(
