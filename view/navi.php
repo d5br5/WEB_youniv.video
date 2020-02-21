@@ -21,17 +21,3 @@
 <section>
 
 <a id="back2Top" title="Scroll Top" href="#">TOP</a>
-
-<?php
-
-//<div class="dropdown" style="margin:0 10px;">
-//  <button class="dropbtn" >비즈니스
-//    <i class="fa fa-caret-down"></i>
-//  </button>
-//  <div class="dropdown-content">
-//    <a href="./business_brand.php" style="text-align:center; font-size:14px; ">광고사업</a></li>
-//    <a href="./business_ip.php" style="text-align:center; font-size:14px;">IP사업</a></li>
-//  </div>
-// </div>
-
- ?>

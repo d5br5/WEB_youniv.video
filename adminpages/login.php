@@ -3,6 +3,9 @@ require("../setting/admin_info.php");
 include("../setting/dbconn.php");
 ?>
 
+<?php require("../view/top.php"); ?>
+<?php require("../view/navi.php"); ?>
+
 <html lang="ko">
   <head>
     <meta charset="utf-8">
@@ -47,3 +50,6 @@ echo "<script> location.replace('../admin.php');</script>";
 <?php } ?>
   </body>
 </html>
+
+
+<?php require('../view/bottom.php');?>

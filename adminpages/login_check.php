@@ -2,15 +2,7 @@
 require("../setting/admin_info.php");
 include("../setting/dbconn.php");
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-  </body>
-</html>
+
 <?php
 $mb_id=trim($_POST['mb_id']);
 $mb_password=trim($_POST['mb_password']);
@@ -40,8 +32,5 @@ if(isset($_SESSION['ss_mb_id'])){
   echo "<script>alert('로그인되었습니다.');</script>";
   echo "<script>location.replace('../admin.php');</script>";
 }
-
-
-
 
  ?>

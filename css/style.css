@@ -1,4 +1,5 @@
 *{font-family: 'Do Hyeon', sans-serif; font-family: 'Noto Sans KR', sans-serif; margin: auto; font-weight: bold;}
+html{font-size: 16px;}
 body{margin: 0;}
 
 nav{width: 1200px;}
@@ -14,13 +15,13 @@ a:hover{color:black;}
 a:visited{color:black;}
 a:active{color:black;}
 
-.nav_button{margin: 0 10px;}
+.nav_button, .gohome{margin: 0 0.625rem;}
 
 .divider{
 margin: auto;
 
 color: black;
-padding : 40px 20px;
+padding : 2.5rem 1.25rem;
 }
 
 .original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%; width:230px; float: left; margin-right: 6%; margin-top: 1%;}
@@ -30,22 +31,22 @@ padding : 40px 20px;
     /* 화면 너비 0 ~ 1306px ~ PC*/
 
 #footer_wrap{background-color: black;}
-#nav_wrap{background-color: white; padding: 20px 0px; top:0; position: fixed; z-index: 5; width: 100%;}
-#section_wrap{background-color: white; padding-top : 95px;}
+#nav_wrap{background-color: white; padding: 1.25rem 0px; top:0; position: fixed; z-index: 5; width: 100%;}
+#section_wrap{background-color: white; padding-top : 5.938rem;}
 
 
 .center{text-align: center;}
-h1{font-size: 60px; padding-bottom: 5px;}
+h1{font-size: 3.75rem; padding-bottom: 0.3125rem;}
 h1.title_divider{ overflow: hidden;}
-h2{font-size: 35px;	margin: 20px 0px 40px 0px; overflow: hidden;}
-h3{font-size: 20px; padding-bottom: 20px; line-height: 35px;}
+h2{font-size: 2.188rem;	margin: 1.25rem 0px 2.5rem 0px; overflow: hidden;}
+h3{font-size: 1.25rem; padding-bottom: 1.25rem; line-height: 2.188rem;}
 h1.title_divider:after{ content:"";
     display: inline-block;
     height: 0.5em;
     vertical-align: bottom;
     width: 100%;
     margin-right: -100%;
-    margin-left: 50px;
+    margin-left: 3.125rem;
     border-top: 10px solid black;}
 h2:after{ content:"";
 		    display: inline-block;
@@ -53,15 +54,15 @@ h2:after{ content:"";
 		    vertical-align: bottom;
 		    width: 100%;
 		    margin-right: -100%;
-		    margin-left: 30px;
-		    border-top: 7px solid black;}
+		    margin-left: 1.875rem;
+		    border-top: 0.4375rem solid black;}
 
-.business_copy{font-size: 35px;}
+.business_copy{font-size: 2.188rem;}
 
-.blank{width: 100%; height: 50px; display: inline-block;}
+.blank{width: 100%; height: 3.125rem; display: inline-block;}
 
 
-.main_video{background-color: black; height: 350px; width: 100%; display: table; margin-bottom: 30px;}
+.main_video{background-color: black; height: 21.88rem; width: 100%; display: table; margin-bottom: 1.875rem;}
 .main_video_text{margin: auto; display: table-cell; vertical-align: middle; text-align: center; color: white;}
 
 .wrapping{display: inline-block;}
@@ -101,7 +102,7 @@ li a{text-decoration: none;}
 .board_header{width:100%; display: inline-block; padding:20px 2px;}
 
 .board_row_wrap{padding: 0px 0px; border-top: 2px solid black; border-bottom: 2px solid black;}
-.board-head-title{font-size: 20px;}
+.board-head-title{font-size: 1.25rem;}
 .board_content_status{float:left; padding-left: 20px; padding-right: 20px;}
 
 .rc_form, .rc_group, .rc_career{float: left; width: 20%; padding: 20px 0px; font-size: inherit; text-align: center;}
@@ -109,7 +110,7 @@ li a{text-decoration: none;}
 .board{border-bottom: 2px solid black; }
 
 .cr_info{text-align: center;
-  font-size: 15px;
+  font-size: 0.9375rem;
 	font-weight: normal;
   color: white;
 }
@@ -118,10 +119,11 @@ li a{text-decoration: none;}
 .apply_text{padding: 20px 0px; color:white; text-align: center;}
 
 .rpr_button{width: 100px; background-color: black; margin-top: 20px; margin-left: 0; float: left;}
-.rpr_button_white{background-color: white; width: 440px; padding-left: 20px;
-      margin-top: 20px; margin-left: 0; float:left; margin-right: 1%;}
+
 .rpr_text{padding: 10px 0px; color:white; text-align: center;}
-.rpr_text_white{padding: 9px 0px; color:black; text-align: center;}
+.rpr_button_white{background-color: white; width: 75%; padding-left: 20px;
+      margin-top: 20px; margin-left: 0; float:left; margin-right: 1%;}
+.rpr_text_white{padding: 9px 0px; color:black; text-align: left;}
 
 
 
@@ -133,7 +135,7 @@ background-position: center; background-size: contain; margin: 0;}
 .crt_wrapping{display: inline-block; width: 100%;}
 .crt_wrap_each{width: 21%; float: left; margin: 2%;}
 .crt_image{width: 100%; border-radius: 70%; overflow: hidden; border: solid 1px gray;}
-.crt_name{text-align: center; font-size: 18px; margin: 8px 0px 0px 0px; height: 35px}
+.crt_name{text-align: center; font-size: 1.125rem; margin: 8px 0px 0px 0px; height: 2.188rem;}
 
 .contact_content{float: left;width: 40%; display: inline-block;}
 
@@ -152,12 +154,13 @@ background-position: center; background-size: contain; margin: 0;}
 /* 화면 너비 0 ~ 768px 태블릿 */
 @media (max-width: 850px){
 	nav, section, footer {width: 94%;}
+  html{font-size: 13px;}
 	.crt_wrap_each{width: 29%; float: left; margin: 2%;}
 	.wrap_image_title{float: left; display: inline-block; width: 25%; margin-right: 5%;}
   .wrap_three_title{float: left; display: inline-block; width: 100%;}
   .image_mini{width:60px; margin: auto; margin-top: 20px;}
 	.contact_content{float: left; width: 100%; display: inline-block; margin-bottom: 30px;}
-	.creator_content_normal_text{padding: 0px 40px; text-align: left; padding-top: 25px; margin-left: 30px; width:80%;}
+	.creator_content_normal_text{padding: 0px; text-align: left; padding-top: 25px; margin-left: 30px; width:80%;}
   #crt_text_short{width:80%;}
   .wrapper_three{width: 100%; display: inline-block; float: left; margin: auto; margin-top: 30px; }
 	.main_content_normal_text{padding: 0px 25px; text-align: left; padding-top: 35px;}
@@ -195,15 +198,22 @@ background-position: center; background-size: contain; margin: 0;}
 
 }
 /* 화면 너비 0 ~ 480px 스마트폰*/
-@media (max-width: 520px){
-  h1{font-size: 40px;}
-  h2{font-size: 27px;}
-  h3{font-size: 16px; padding-bottom: 5px;}
-  p{font-size: 14px;}
+@media (max-width: 570px){
+  html{font-size: 10px;}
+  h1{font-size: 2.5rem;}
+  h2{font-size: 1.625rem;}
+  h3{font-size: 1rem; padding-bottom: 5px;}
+  p{font-size: 0.875rem;}
   .business_copy{font-size: 25px;}
 	nav, section, footer {width: 100%;}
 	.crt_wrap_each{width: 46%; float: left; margin: 2%;}
   .wrap_contact_address{width: 95%; margin-left: 5%; height: 300px; }
   iframe{height: 200px;}
+
+  .rpr_button_white{background-color: white; width: 70%; padding-left: 20px;
+        margin-top: 0px; margin-left: 0; float:left; margin-right: 1%;}
+  .rpr_text_white{padding: 9px 0px; color:black; text-align: left; margin-top: 20px;}
+
+
 
 }

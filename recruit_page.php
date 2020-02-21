@@ -27,7 +27,7 @@ while($row=mysqli_fetch_array($result)){
   <div class="board">
     <div class="board_header_wrap">
       <div class="board_header">
-      <div style="font-size:30px">
+      <div style="font-size:1.875rem">
         <?=$filtered['rc_title']?>
       </div>
       <div style="float:left">
