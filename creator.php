@@ -9,19 +9,20 @@
 
 <div class="divider">
   <div>
-    <h1>크리에이터</h1>
+    <h1>파트너십</h1>
   </div>
 
   <div>
-    <h3>대학/입시부터 전문지식, 라이프스타일까지 유니브와 함께 성장할 파트너를 찾습니다.</h3>
+    <h3>유니브 소속 파트너 채널들이 보다 더 높은 <br class="br_2">영향력을 얻을 수 있도록 다양한 서비스를 제공합니다.</h3>
+  </div>
+  <div class="blank"></div>
+  <div class="apply_button">
+    <a href="mailto:support@youniv.video?Subject=신규파트너문의" target="_top"><div class="apply_text">신규 파트너 문의하기</div></a>
   </div>
 </div>
 <div class="divider">
   <div>
-    <h2>서비스</h2>
-  </div>
-  <div>
-    <h3>유니브는 크리에이터들의 성장을 위해 다양한 서비스를 지원합니다.<br><br></h3>
+    <h2>파트너 서비스</h2>
   </div>
   <div class="wrapping">
 
@@ -34,10 +35,10 @@
           </div>
           <div class="creator_content_normal_text">
             <p>
-              	&middot; 채널 성장을 위한 정기 컨설팅 <br>
               	&middot; CMS 운영 및 관리 <br>
-              	&middot; 유튜브 데이터 분석 <br>
-              	&middot; 유튜브 관련 소식 전달 및 교육
+              	&middot; 유튜브 채널 데이터 분석 <br>
+                &middot; 채널 성장을 위한 정기 컨설팅 <br>
+              	&middot; 유튜브와 관련된 다양한 정보 제공
             </p>
           </div>
         </div>
@@ -51,25 +52,26 @@
           </div>
           <div class="creator_content_normal_text" id="crt_text_short">
             <p>
+              &middot; 채널로고 및 배너 제작 <br>
             	&middot; 촬영장비 대여 <br>
-            	&middot; 스튜디오 지원 <br>
-            	&middot; 채널아트 및 프로필 지원 </p>
+            	&middot; 스튜디오 대여 <br>
+              &middot; 콘텐츠 기획 방향성 제시
+             </p>
           </div>
         </div>
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/advertisement.png" alt="광고">
+            <img class="image_mini" src="./img/studio.png" alt="광고">
           <div>
-            <h3 class="center">광고/IP 비즈니스</h3>
+            <h3 class="center">비즈니스</h3>
           </div>
           </div>
           <div class="creator_content_normal_text">
             <p>
-            	&middot; 교육부터 라이프스타일까지<br>
-            &nbsp;&nbsp; 다양한 시장의 광고주 보유 <br>
-            	&middot; 전문 광고팀 운영 <br>
-            	&middot; IP를 활용한 수익화 기회 창출 </p>
+            	&middot; 채널 적합 제품/브랜드 광고 경험 제공<br>
+            	&middot; 채널 IP를 활용한 굿즈/제품 제작 지원<br>
+            	&middot; 콘텐츠 관련 다양한 수익화 기회 창출 </p>
           </div>
         </div>
 
@@ -110,19 +112,7 @@
 
   </div>
 </div>
-<div class="divider">
-  <div>
-    <h2>신규 파트너 문의</h2>
-  </div>
-  <div class="contact_content">
-    <h3>Mail</h3>
-    <p>support@youniv.video</p>
-  </div>
-  <div class="contact_content">
-    <h3>필요 내용</h3>
-    <p>채널명, 채널 url, 컨셉, 운영기간 등</p>
-  </div>
-</div>
+
 <div class="blank"></div>
 
 <?php require('./view/bottom.php');?>

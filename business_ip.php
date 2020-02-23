@@ -23,27 +23,16 @@
 
   <div class="blank"></div>
   <div>
-    <p style="text-align:center" class="business_copy">유니브의 콘텐츠 역량을 기반으로 브랜드 파워를 강화합니다.</p>
+    <p style="text-align:center" class="business_copy">채널의 브랜드 아이덴티티를 기반으로 다양한 상품을 제작합니다.</p>
   </div>
   <div class="blank"></div>
-  <div class="apply_button">
-    <a href="mailto:ad@youniv.video?Subject=광고제휴문의" target="_top"><div class="apply_text">광고 제휴 문의하기</div></a>
-  </div>
-
 <div class="blank"></div>
 
   <div>
-    <h2>브랜드 채널</h2>
+    <h2>대표 상품</h2>
   </div>
-  <div>
-    <h3>유니브는 오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
-  </div>
-  <div class="rpr_button">
-    <div class="rpr_text">대표 사례</div>
-  </div>
-  <div class="rpr_button_white">
-    <div class="rpr_text_white">'대성마이맥' 공식 유튜브 채널 내 '맥밖클래스' 콘텐츠 라인업 제작</div>
-  </div>
+
+  
   <div class="wrapping">
 
         <div class="wrapper_three">

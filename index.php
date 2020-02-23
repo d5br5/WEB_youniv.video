@@ -19,22 +19,21 @@
 
 <div class="divider">
   <div>
-    <h1 class="title_divider">What We Do</h1>
+    <h1 class="title_divider">What To Do</h1>
   </div>
-<div class="blank"></div>
+<div class="blank_hide"></div>
 
   <div class="wrapping">
     <a href="original.php">
         <div class="wrapper_three">
           <div class="wrap_image_title">
             <img class="image_mini" src="./img/o_o.png" alt="O_O">
-
             <div>
-              <h3 class="center">O&O</h3>
+              <h3 class="center">오리지널</h3>
             </div>
           </div>
           <div class="main_content_normal_text">
-            <p>유니브는 학생들이 공부를 즐겁게 할 수 있도록 도와주는 O&O 채널들을 운영하며, 이러한 경험을 통해 YouTube 및 채널 운영에 대한 인사이트를 전면에서 쌓고 있습니다.</p>
+            <p>학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned&Operated 채널)을 직접 운영합니다. </p>
           </div>
         </div>
       </a>
@@ -43,11 +42,11 @@
           <div class="wrap_image_title">
             <img class="image_mini" src="./img/creator.png" alt="creator">
             <div>
-              <h3 class="center">크리에이터</h3>
+              <h3 class="center">파트너십</h3>
             </div>
           </div>
           <div class="main_content_normal_text">
-            <p>대학/입시부터 전문지식, 라이프스타일까지 유니브는 자신의 지식과 경험을 공유하는 다양한 크리에이터 분들과 파트너십을 맺어 채널 관리를 도와드리고 있습니다. </p>
+            <p>교육/러닝(Learning) 카테고리를 넘어서서 학생 라이프스타일 채널들이 높은 영향력을 얻을 수 있도록 전범위적인 매니지먼트를 지원합니다.</p>
           </div>
         </div>
       </a>
@@ -60,38 +59,41 @@
           </div>
           </div>
           <div class="main_content_normal_text">
-            <p>유니브는 YouTube와 뉴미디어에 맞는 유익하며 동시에 재미있는 교육 콘텐츠를 합리적인 가격에 제공합니다. YouTube에서 공부해보세요. </p>
+            <p>변화하는 뉴미디어 환경에 맞춰 YouTube를 기반으로 유익하면서 동시에 재미있는 교육/학습 콘텐츠를 제공합니다.</p>
           </div>
         </div>
       </a>
   </div>
-</div>
 
-<div class="blank"></div>
-<div class="divider">
-  <div>
-    <h1 class="title_divider">BUSINESS</h1>
-  </div>
-  <div class="blank"></div>
-  <div class="wrapping">
-    <div class="wrapper_two">
-      <img class="image_mini" src="./img/branded.png" alt="bdc">
-      <div>
-        <h3 style="text-align:center">BDC</h3>
+  <div class="blank_hide"></div>
+
+  <div class="wrapping_2">
+    <a href="business_brand.php">
+      <div class="wrapper_three">
+        <div class="wrap_image_title">
+        <img class="image_mini" src="./img/branded.png" alt="BDC">
+        <div>
+          <h3 class="center">광고사업</h3>
+        </div>
+        </div>
+        <div class="main_content_normal_text">
+          <p>오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 콘텐츠 역량을 기반으로 브랜드 파워를 강화할 수 있는 방안을 제시합니다.</p>
+        </div>
       </div>
-      <div>
-        <p>BDC 소개</p>
+    </a>
+    <a href="business_ip.php">
+      <div class="wrapper_three">
+        <div class="wrap_image_title">
+        <img class="image_mini" src="./img/ip.png" alt="IP">
+        <div>
+          <h3 class="center">IP 사업</h3>
+        </div>
+        </div>
+        <div class="main_content_normal_text">
+          <p>채널을 기반으로 형성된 강력한 브랜드 아이덴티티를 기반으로 굿즈 출시, 출판 등 다양한 상품화 프로젝트를 진행합니다.</p>
+        </div>
       </div>
-    </div>
-    <div class="wrapper_two">
-      <img class="image_mini" src="./img/ip.png" alt="ip">
-      <div>
-        <h3 style="text-align:center">IP</h3>
-      </div>
-      <div>
-        <p style="text-align:center">IP사업 소개</p>
-      </div>
-    </div>
+    </a>
   </div>
 </div>
 <div class="blank"></div>
@@ -108,32 +110,33 @@
   <p> <br></p>
   <div class="wrapping">
     <div class="wrap_contact_map">
-        <div id="map" style="width:100%;height:300px;"></div>
+        <div id="map"></div>
     </div>
     <div class="wrap_contact_address">
         <div class="contact_address_title">
-          <p><br>주 소<br></p>
-          <p><br>전화번호<br></p>
-          <p><br>팩스번호<br></p>
-          <p><br>이메일</p>
+          <p>주 소<br></p>
+          <p><br>대표전화<br></p>
+          <p><br>팩스<br></p>
+          <p><br>이메일<br></p>
+          <p><br>영업시간</p>
         </div>
         <div class="contact_address_text">
-          <p><br>서울 강남구 테헤란로 501 VPLEX 411호<br></p>
+          <p>서울시 강남구 테헤란로 501 (VPLEX) 411호<br></p>
           <p><br>02-508-8866<br></p>
           <p><br>02-508-8867<br></p>
-          <p><br>contact@youniv.video</p>
+          <p><br>contact@youniv.video<br></p>
+          <p><br>평일 10:00-19:00 / 주말, 공휴일 휴무</p>
         </div>
     </div>
   </div>
 </div>
-<div class="blank"></div>
+<div class="blank_hide"></div>
 
 <script>
 var mapOptions = {center: new naver.maps.LatLng(37.507280, 127.056940),zoom: 16};
 var map = new naver.maps.Map('map', mapOptions);
 var markerOptions = {position:new naver.maps.LatLng(37.507280, 127.056940), map: map};
 var marker = new naver.maps.Marker(markerOptions);
-
 </script>
 
 <?php require('./view/bottom.php');?>

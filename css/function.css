@@ -39,6 +39,9 @@ ul {
   color: white;
 }
 
+.topnav_wrap{float: right;}
+
+
 
 /*scroll top button*/
 
@@ -79,7 +82,7 @@ ul {
   font-size: 1.25rem;
   margin: auto 1.25rem;
   font-weight: normal;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .business_menu_active {
@@ -96,4 +99,15 @@ ul {
 .business_menu:hover{
   font-weight: bold;
   border-bottom: 4px solid black;
+}
+
+#map{width:100%;height:300px;}
+
+@media(max-width:850px){
+  .topnav_wrap{padding-top: 50px;}
+
+}
+
+@media (max-width: 470px){
+  #map{height: 200px;}
 }

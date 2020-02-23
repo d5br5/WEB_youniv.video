@@ -10,6 +10,9 @@ p{line-height: 2em;}
 
 table{border-collapse: collapse;}
 .wrapping{display: inline-block; width: 100%;}
+.wrapping_2{display: inline-block; width: 100%; padding-left: 17%;}
+
+
 a:link{color:black;}
 a:hover{color:black;}
 a:visited{color:black;}
@@ -24,7 +27,8 @@ color: black;
 padding : 2.5rem 1.25rem;
 }
 
-.original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%; width:230px; float: left; margin-right: 6%; margin-top: 1%;}
+.original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%;
+  width:230px; float: left; margin-right: 6%; margin-bottom: 70px; margin-top: 1%;}
 .original_text_wrap{display: inline-block; float: right; text-align: left; width: 77%;}
 .original_logo_wrap{display: inline-block; width: 20%;}
 
@@ -34,6 +38,7 @@ padding : 2.5rem 1.25rem;
 #nav_wrap{background-color: white; padding: 1.25rem 0px; top:0; position: fixed; z-index: 5; width: 100%;}
 #section_wrap{background-color: white; padding-top : 5.938rem;}
 
+.sentence_lump{}
 
 .center{text-align: center;}
 h1{font-size: 3.75rem; padding-bottom: 0.3125rem;}
@@ -60,19 +65,19 @@ h2:after{ content:"";
 .business_copy{font-size: 2.188rem;}
 
 .blank{width: 100%; height: 3.125rem; display: inline-block;}
-
+.blank_hide{width: 100%; height: 3.125rem; display: inline-block;}
 
 .main_video{background-color: black; height: 21.88rem; width: 100%; display: table; margin-bottom: 1.875rem;}
 .main_video_text{margin: auto; display: table-cell; vertical-align: middle; text-align: center; color: white;}
 
-.wrapping{display: inline-block;}
+
 .wrapper_three{width: 32.8%; display: inline-block; float: left; margin: auto; margin-top: 30px; margin-left: 2px; margin-right: 2px;}
 .wrapper_two{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px; text-align: center;}
 
 .wrap_image_title{text-align: center;}
 .image_mini{width:100px; margin: auto; margin-top: 20px;}
 .main_content_normal_text{padding: 0px 25px; text-align: left;}
-.creator_content_normal_text{width: 220px; margin: auto; text-align: left;}
+.creator_content_normal_text{width: 260px; margin: auto; text-align: left;}
 #crt_text_short{width:180px;}
 
 .historyimage{border: 1px solid black; width: 100%; height: 350px; margin-bottom: 50px;}
@@ -115,10 +120,10 @@ li a{text-decoration: none;}
   color: white;
 }
 
-.apply_button{width: 250px; background-color: black; margin-bottom: 30px;}
-.apply_text{padding: 20px 0px; color:white; text-align: center;}
+.apply_button{width: 15.625rem; background-color: black; margin-bottom: 0px;}
+.apply_text{padding: 1.25rem 0px; color:white; text-align: center;}
 
-.rpr_button{width: 100px; background-color: black; margin-top: 20px; margin-left: 0; float: left;}
+.rpr_button{width: 100px; background-color: black; margin-top: 20px; margin-bottom: 20px;margin-left: 0; float: left;}
 
 .rpr_text{padding: 10px 0px; color:white; text-align: center;}
 .rpr_button_white{background-color: white; width: 75%; padding-left: 20px;
@@ -145,14 +150,19 @@ background-position: center; background-size: contain; margin: 0;}
 
 @media (max-width: 1306px){
   nav, section, footer {width: 95%;}
-#nav_wrap{left: 50%; margin-left: -48%; width:95%;}
+  #nav_wrap{left: 50%; margin-left: -48%; width:95%;}
   .wrap_contact_map{width: 49%;}
   .wrap_contact_address{width: 49%; margin-left: 2%;}
+  .original_logo{width: 20%;}
+}
 
+@media (min-width:850px){
+  .br_2{display: none;}
 }
 
 /* 화면 너비 0 ~ 768px 태블릿 */
 @media (max-width: 850px){
+  .br_no{display: none;}
 	nav, section, footer {width: 94%;}
   html{font-size: 13px;}
 	.crt_wrap_each{width: 29%; float: left; margin: 2%;}
@@ -162,13 +172,15 @@ background-position: center; background-size: contain; margin: 0;}
 	.contact_content{float: left; width: 100%; display: inline-block; margin-bottom: 30px;}
 	.creator_content_normal_text{padding: 0px; text-align: left; padding-top: 25px; margin-left: 30px; width:80%;}
   #crt_text_short{width:80%;}
-  .wrapper_three{width: 100%; display: inline-block; float: left; margin: auto; margin-top: 30px; }
+  .wrapper_three{width: 100%; display: inline-block; float: left; margin: auto; margin-bottom: 10px; }
 	.main_content_normal_text{padding: 0px 25px; text-align: left; padding-top: 35px;}
 	.wrap_contact_map{display: inline-block; width: 100%;}
 	.wrap_contact_address{display: inline-block; width: 90%; margin-left: 10%; height: 300px; }
   .client_wrap_each{width: 22.5%; float: left; margin: 1%; border: 1px solid black; height: 80px;}
-
+  .blank_hide{display: none;}
   iframe{width: 100%; height: 400px;}
+  .crt_wrapping{margin-top: 20px;}
+
 
   .topnav a:not(.gohome), .dropdown .dropbtn {
     display: none;
@@ -195,8 +207,15 @@ background-position: center; background-size: contain; margin: 0;}
     width: 100%;
     text-align: left;
   }
+  .wrapping_2{display: inline-block; width: 100%; padding-left: 0;}
+  .wrap_contact_address{margin-top: 30px;}
+
+  .rc_form, .rc_group, .rc_career{width: 15%;}
+  .rc_title{width: 55%;}
 
 }
+
+
 /* 화면 너비 0 ~ 480px 스마트폰*/
 @media (max-width: 570px){
   html{font-size: 10px;}
@@ -206,14 +225,20 @@ background-position: center; background-size: contain; margin: 0;}
   p{font-size: 0.875rem;}
   .business_copy{font-size: 25px;}
 	nav, section, footer {width: 100%;}
-	.crt_wrap_each{width: 46%; float: left; margin: 2%;}
-  .wrap_contact_address{width: 95%; margin-left: 5%; height: 300px; }
+  .wrap_contact_address{width: 95%; margin-left: 5%; height: 170px; }
   iframe{height: 200px;}
 
   .rpr_button_white{background-color: white; width: 70%; padding-left: 20px;
         margin-top: 0px; margin-left: 0; float:left; margin-right: 1%;}
   .rpr_text_white{padding: 9px 0px; color:black; text-align: left; margin-top: 20px;}
+  .board_header_title{text-align: center; margin-bottom: 20px;}
+}
 
+@media (min-width: 470px){
+  .br_3{display: none;}
+}
 
-
+@media (max-width: 470px){
+  .rpr_button_white{width: 50%; }
+  .rpr_text_white{padding: 0px 0px; color:black; text-align: left; margin-top: 20px;}
 }

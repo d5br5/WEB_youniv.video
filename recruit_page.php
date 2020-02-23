@@ -27,7 +27,7 @@ while($row=mysqli_fetch_array($result)){
   <div class="board">
     <div class="board_header_wrap">
       <div class="board_header">
-      <div style="font-size:1.875rem">
+      <div class="board_header_title" style="font-size:1.875rem">
         <?=$filtered['rc_title']?>
       </div>
       <div style="float:left">
@@ -54,7 +54,7 @@ while($row=mysqli_fetch_array($result)){
        <div style="padding:5px">
          <?=$filtered['rc_text']?>
        </div>
-       <div class="apply_button">
+       <div class="apply_button" style="margin-bottom:30px;">
          <a href="mailto:recruit@youniv.video?Subject=파트너문의" target="_top"><div class="apply_text">지원하기</div></a>
        </div>
     </div>

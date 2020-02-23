@@ -8,10 +8,10 @@
 
 <div class="divider">
   <div>
-    <h1>O&O</h1>
+    <h1>오리지널</h1>
   </div>
   <div>
-    <h3>유니브가 직접 100% 기획하고 제작, 운영하는 Owned & Operated 채널입니다.</h3>
+    <h3>유니브가 직접 기획하고 제작, 운영하는 Owned & Operated 채널입니다.</h3>
   </div>
 </div>
 
@@ -20,15 +20,14 @@
   <div class="wrapping">
 
       <img class="original_logo" src="./img/yonkotv.jpg" alt="연고티비" align="middle">
-        <h1 style="display:inline-block">연고티비</h1>
-        <h3 style="display:inline-block">(구독자 33만명, 유튜브 누적 조회수 1억)</h3>
+        <h1>연고티비</h1>
+        <h3>누적 조회수 1억 회를 달성한<br class="br_2"> "에듀테인먼트(Edutainent)" 채널</h3>
         <p>
-          연고티비는 교육(Edu)에 엔터테인먼트(Entertainment)를 결합한 "에듀테인먼트(Edutainment)" 채널로 중·고등학생 구독자들을 대상으로 연고대에 대한 간접체험, 입시 공부에 대한 정보, 학생 라이프스타일에 대한 공감 콘텐츠를 제작하고 있습니다. <br><br>
-          입시와 공부 이야기는 재미없다는는 편견을 부수기 위해, 고단한 수험생활에 활력을 불어넣어 드리기 위해, 먼저 그 길을 걸어온 형, 오빠, 누나, 언니들이 재미있고 친근하게 다가가겠습니다.
+          실제 연·고대 재학생들이 크리에이터로 활동하며 중·고등학생 구독자들을 대상으로 자칫 딱딱하게 느껴질 수 있는 공부, 입시에 관한 다양한 정보를 재미있게 전달하며, 더 나아가 학생 라이프스타일 전반에 대한 공감 콘텐츠를 제작하고 있습니다.
         </p>
   </div>
 
-<div class="blank"></div>
+
 
 <div class="wrapping">
   <div>
@@ -46,9 +45,9 @@
     <h2>대표 콘텐츠</h2>
   </div>
   <div class="wrapping">
-    <iframe width="33%" height="215" src="https://www.youtube.com/embed/QAHmE3Guz-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="33%" height="215" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="33%" height="215" src="https://www.youtube.com/embed/GPhGZbAusQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="33%" height="215" src="https://www.youtube.com/embed/LpE8YNsAhyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="33%" height="215" src="https://www.youtube.com/embed/zei8EnoTHus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 <div class="blank"></div>
@@ -58,20 +57,14 @@
 <div class="divider">
   <div class="wrapping">
     <img class="original_logo" src="./img/ipsidukku.jpg" alt="입시덕후" align="middle">
-        <h1 style="display:inline-block">입시덕후</h1>
-        <h3 style="display:inline-block">(구독자 45만명, 유튜브 누적 조회수 1억)</h3>
+        <h1>입시덕후</h1>
+        <h3>"대한민국 학생들의 선택의 기준"이 되는 채널</h3>
         <p>
-          "대한민국 학생들의 새로운 선택의 기준"
-          <br>
-          입시덕후의 시니컬한 랭킹쇼. 중고등학생들을 위한 입시와 라이프 정보를 재미있게 가공하여 랭킹으로 알려드리는 채널입니다.
-          <br><br>
-          '입시덕후'라는 캐릭터가 대학/입시/학교생활/문제집/학용품 등 학생들을 위한 다양한 정보를 알려드립니다. 재미있는 편집과 찰진 내래이션을 바탕으로 채널 개설 1년 반만에 구독자 40만명을 달성하며 학생들 사이에서 큰 영향력을 발휘하고 있습니다.
+          중·고등학생들을 위해 입시와 학교 생활 전반에 관련한 정보를 재치있는 이미지와 나레이션을 통해 랭킹으로 알려드리는 채널입니다. 채널 개설 1년 반만에 구독자 47만 명, 누적 조회수 1억 회를 달성하며 학생들 사이에서 '입시덕~후' 열풍을 만들어 내고 있습니다.
         </p>
 
     </div>
 
-
-<div class="blank"></div>
 
   <div class="wrapping">
       <div>
@@ -79,8 +72,8 @@
       </div>
       <div class="wrapping">
         <iframe width="33%" height="215px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/6rBXDz8jL-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/2--CHt7wFIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/hGqSN8NfWUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/Uzf9oDvmFX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
   </div>
   <div class="blank"></div>

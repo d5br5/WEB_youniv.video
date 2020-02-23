@@ -4,9 +4,9 @@
     <nav>
       <div class="topnav" id="myTopnav" style="width:100%">
         <a href="./index.php" class="gohome" style="float:left">YOUNIV</a>
-          <div style="float:right">
+          <div class="topnav_wrap">
             <a href="./original.php" class="nav_button">오리지널</a>
-            <a href="./creator.php" class="nav_button">크리에이터</a>
+            <a href="./creator.php" class="nav_button">파트너십</a>
             <a href="./class.php" class="nav_button">클래스</a>
             <a href="./business_brand.php" class="nav_button">비즈니스</a>
             <a href="./recruit.php" class="nav_button">인재채용</a>

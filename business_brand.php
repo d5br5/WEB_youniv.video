@@ -20,7 +20,6 @@
     </div></a>
   </div>
 
-<div class="blank"></div>
   <div class="blank"></div>
   <div>
     <p style="text-align:center" class="business_copy">유니브의 콘텐츠 역량을 기반으로 브랜드 파워를 강화합니다.</p>
@@ -36,7 +35,7 @@
   </div>
   <div>
     <h3>유니브의 채널들은 각각 정밀한 타겟과 확실한 카테고리를 점하고 있으며 <br>
-       이를 바탕으로 클라이언트 제품에 가장 적합한 콘텐츠를 제작하여 높은 광고효과를 창출합니다.<br></h3>
+       이를 바탕으로 클라이언트 제품에 가장 적합한 콘텐츠를 제작하여 <br class="br_3">높은 광고효과를 창출합니다.<br></h3>
   </div>
   <div class="rpr_button">
     <div class="rpr_text">대표 사례</div>
@@ -75,13 +74,13 @@
     <h2>브랜드 채널</h2>
   </div>
   <div>
-    <h3>유니브는 오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
+    <h3>유니브는 오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로<br class="br_3"> 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
   </div>
   <div class="rpr_button">
     <div class="rpr_text">대표 사례</div>
   </div>
   <div class="rpr_button_white">
-    <div class="rpr_text_white">'대성마이맥' 공식 유튜브 채널 내 '맥밖클래스' 콘텐츠 라인업 제작</div>
+    <div class="rpr_text_white">'대성마이맥' 공식 유튜브 채널 내 <br class="br_3">'맥밖클래스' 콘텐츠 라인업 제작</div>
   </div>
   <div class="wrapping">
 
@@ -108,20 +107,11 @@
     <h2>주요 클라이언트</h2>
   </div>
   <div>
-    <h3>유니브는 교육기업 뿐만 아니라 어학, 사진, 통신 등 다양한 클라이언트들과 캠페인을 진행했습니다.</h3>
+    <h3>유니브는 교육기업 뿐만 아니라 어학, 사진, 통신 등 <br class="br_3">다양한 클라이언트들과 캠페인을 진행했습니다.</h3>
   </div>
+  <div class="blank"></div>
   <div class="client_wrapping">
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
-    <div class="client_wrap_each">    </div>
+    <img src="./img/client.png" alt="클라이언트" width="100%">
   </div>
 </div>
 
