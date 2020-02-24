@@ -22,7 +22,7 @@
 
   <div class="blank"></div>
   <div>
-    <p style="text-align:center" class="business_copy">유니브의 콘텐츠 역량을 기반으로 브랜드 파워를 강화합니다.</p>
+    <p style="text-align:center" class="business_copy">유니브의 <br class="br_3"> 콘텐츠 역량을 기반으로 <br class="br_1">브랜드 파워를 강화합니다.</p>
   </div>
   <div class="blank"></div>
   <div class="apply_button">
@@ -45,25 +45,22 @@
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/Kvbf74o2iGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div>
-            <p class="center">연고티비 X 비상교육 수능기출문제집</p>
-          </div>
+            <p class="video_title">연고티비 X 비상교육 수능기출문제집</p>
+            <p class="video_intro">조회수 32만회 (2020.01.25.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/QiLTNSIAl5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div>
-            <p class="center">입시덕후 X 무신사스토어</p>
-          </div>
+            <p class="video_title">입시덕후 X 무신사스토어</p>
+            <p class="video_intro">조회수 47만회 (2020.02.08.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/B3jl7PrWKfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div>
-            <p class="center">모르는지 X 삼성전자 갤럭시 S20</p>
-          </div>
+            <p class="video_title">모르는지 X 삼성전자 갤럭시 S20</p>
+            <p class="video_intro">조회수 12만회 (2020.02.11.)</p>
           </div>
         </div>
   </div>
@@ -74,7 +71,7 @@
     <h2>브랜드 채널</h2>
   </div>
   <div>
-    <h3>유니브는 오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로<br class="br_3"> 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
+    <h3>유니브는 오리지널 채널 운영 및 <br class="br_3"> 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로<br class="br_3"> 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
   </div>
   <div class="rpr_button">
     <div class="rpr_text">대표 사례</div>
@@ -87,16 +84,23 @@
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/xye3DIqYfMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">4수생이 알려주는 <br class="br_only1"> 수능 볼 때 하면 안되는 것 4가지</p>
+            <p class="video_intro">대성마이맥 X 저라뎃</p>
           </div>
+
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/JDdgUn5_wxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">언제까지 잠만 잘거야! <br class="br_only1"> 방학 알차게 보내는 법</p>
+            <p class="video_intro">대성마이맥 X 감스트</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/y2jSsy0oAns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">수능 100일 전, <br class="br_only1"> 수능 벼락치기 성공하는 법</p>
+            <p class="video_intro">대성마이맥 X 공돌이용달</p>
           </div>
         </div>
   </div>

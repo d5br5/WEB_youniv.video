@@ -55,7 +55,7 @@ while($row=mysqli_fetch_array($result)){
          <?=$filtered['rc_text']?>
        </div>
        <div class="apply_button" style="margin-bottom:30px;">
-         <a href="mailto:recruit@youniv.video?Subject=파트너문의" target="_top"><div class="apply_text">지원하기</div></a>
+         <a href="mailto:recruit@youniv.video?Subject=채용문의" target="_top"><div class="apply_text">지원하기</div></a>
        </div>
     </div>
   </div>

@@ -28,7 +28,7 @@ padding : 2.5rem 1.25rem;
 }
 
 .original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%;
-  width:230px; float: left; margin-right: 6%; margin-bottom: 70px; margin-top: 1%;}
+  width:230px; float: left; margin-right: 6%; margin-bottom: 70px;}
 .original_text_wrap{display: inline-block; float: right; text-align: left; width: 77%;}
 .original_logo_wrap{display: inline-block; width: 20%;}
 
@@ -88,7 +88,15 @@ h2:after{ content:"";
 .contact_address_text{display: inline-block; float: right; width: 75%;}
 .contact_address_text > p {font-weight: normal;}
 
+.video_title{text-align: right; font-size: 1.125rem; line-height: 1.5rem; margin-top: 5px;}
+.video_intro{text-align: right; font-size: 0.9375rem; font-weight: normal; line-height: 1.5rem;}
 
+.ip_title{width:300px; text-align: center; margin-left: 0; background-color: black; color:white; padding: 10px 0;}
+.ip_index{display: inline-block; float: left; width: 40%; margin: 20px 0;}
+.ip_image{}
+.ip_intro{}
+.ip_video{display: inline-block;float: right; width:45%; }
+.ip_wrap{margin-bottom: 50px;}
 
 
 div.content
@@ -121,7 +129,8 @@ li a{text-decoration: none;}
 }
 
 .apply_button{width: 15.625rem; background-color: black; margin-bottom: 0px;}
-.apply_text{padding: 1.25rem 0px; color:white; text-align: center;}
+.youtube_button{width: 15.625rem; background-color: #ED0000; margin-bottom: 0px;}
+.apply_text{padding: 1.25rem 0px; color:white; text-align: center; }
 
 .rpr_button{width: 100px; background-color: black; margin-top: 20px; margin-bottom: 20px;margin-left: 0; float: left;}
 
@@ -150,10 +159,17 @@ background-position: center; background-size: contain; margin: 0;}
 
 @media (max-width: 1306px){
   nav, section, footer {width: 95%;}
-  #nav_wrap{left: 50%; margin-left: -48%; width:95%;}
+  #nav_wrap{left: 50%; margin-left: -50%; width:100%;}
   .wrap_contact_map{width: 49%;}
   .wrap_contact_address{width: 49%; margin-left: 2%;}
   .original_logo{width: 20%;}
+}
+
+@media(min-width:1306px){.br_only1{display: none;}}
+@media(max-width:850px){.br_only1{display: none;}}
+
+@media (min-width:1306px){
+  .br_1{display: none;}
 }
 
 @media (min-width:850px){
@@ -162,12 +178,12 @@ background-position: center; background-size: contain; margin: 0;}
 
 /* 화면 너비 0 ~ 768px 태블릿 */
 @media (max-width: 850px){
-  .br_no{display: none;}
+.br_no{display: none;}
 	nav, section, footer {width: 94%;}
   html{font-size: 13px;}
 	.crt_wrap_each{width: 29%; float: left; margin: 2%;}
 	.wrap_image_title{float: left; display: inline-block; width: 25%; margin-right: 5%;}
-  .wrap_three_title{float: left; display: inline-block; width: 100%;}
+  .wrap_three_title{float: left; display: inline-block; width: 100%; margin-bottom: 10px;}
   .image_mini{width:60px; margin: auto; margin-top: 20px;}
 	.contact_content{float: left; width: 100%; display: inline-block; margin-bottom: 30px;}
 	.creator_content_normal_text{padding: 0px; text-align: left; padding-top: 25px; margin-left: 30px; width:80%;}
@@ -224,7 +240,6 @@ background-position: center; background-size: contain; margin: 0;}
   h3{font-size: 1rem; padding-bottom: 5px;}
   p{font-size: 0.875rem;}
   .business_copy{font-size: 25px;}
-	nav, section, footer {width: 100%;}
   .wrap_contact_address{width: 95%; margin-left: 5%; height: 170px; }
   iframe{height: 200px;}
 

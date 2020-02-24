@@ -27,8 +27,8 @@
   </div>
 
   <div class="blank"></div>
-  <div class="apply_button">
-    <a href="mailto:support@youniv.video?Subject=신규파트너문의" target="_top"><div class="apply_text">유니브 클래스 강의 보러 가기</div></a>
+  <div class="youtube_button">
+    <a href="https://www.youtube.com/channel/UCSvQJiTYECOrw-AYOr4yzqA" target="_top" style="text-decoration: none;"><div class="apply_text">유니브 클래스 강의 보러 가기</div></a>
   </div>
 </div>
 <div class="divider">

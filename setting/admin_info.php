@@ -11,8 +11,8 @@
 
   //$mysql_db="d5br5test";
   //서버
-  //$mysql_password="1577283114k";
-  $mysql_password="650823k";
+  $mysql_password="1577283114k";
+  //$mysql_password="650823k";
   //집
   $mysql_db="homepage";
   //집, 회사

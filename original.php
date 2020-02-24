@@ -44,10 +44,30 @@
   <div>
     <h2>대표 콘텐츠</h2>
   </div>
+
   <div class="wrapping">
-    <iframe width="33%" height="215" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="33%" height="215" src="https://www.youtube.com/embed/LpE8YNsAhyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="33%" height="215" src="https://www.youtube.com/embed/zei8EnoTHus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="wrapper_three">
+      <div class="wrap_three_title">
+        <iframe width="100%" height="212px" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video_title">통학생vs자취생 24시간 밀착 비교!</p>
+        <p class="video_intro">조회수 115만회 (2019.09.14.)</p>
+      </div>
+    </div>
+    <div class="wrapper_three">
+      <div class="wrap_three_title">
+        <iframe width="100%" height="212px" src="https://www.youtube.com/embed/LpE8YNsAhyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video_title">연고대생들이 순공시간을 재봤습니다.</p>
+        <p class="video_intro">조회수 77만회 (2019.09.21.)</p>
+      </div>
+    </div>
+    <div class="wrapper_three">
+      <div class="wrap_three_title">
+        <iframe width="100%" height="212px" src="https://www.youtube.com/embed/zei8EnoTHus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video_title">인강 프리패스 싹 다 사 봤습니다.</p>
+        <p class="video_intro">조회수 50만회 (2020.01.04.)</p>
+      </div>
+    </div>
+
   </div>
 </div>
 <div class="blank"></div>
@@ -60,7 +80,7 @@
         <h1>입시덕후</h1>
         <h3>"대한민국 학생들의 선택의 기준"이 되는 채널</h3>
         <p>
-          중·고등학생들을 위해 입시와 학교 생활 전반에 관련한 정보를 재치있는 이미지와 나레이션을 통해 랭킹으로 알려드리는 채널입니다. 채널 개설 1년 반만에 구독자 47만 명, 누적 조회수 1억 회를 달성하며 학생들 사이에서 '입시덕~후' 열풍을 만들어 내고 있습니다.
+          중·고등학생들을 위해 입시, 학교 생활 전반에 관련한 정보를 재치있는 이미지와 나레이션을 통해 랭킹으로 알려드리는 채널입니다. 채널 개설 1년 반만에 구독자 47만 명, 누적 조회수 1억 회를 달성하며 학생들 사이에서 '입시덕~후' 열풍을 만들어 내고 있습니다.
         </p>
 
     </div>
@@ -71,9 +91,27 @@
         <h2>대표 콘텐츠</h2>
       </div>
       <div class="wrapping">
-        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/hGqSN8NfWUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="33%" height="215px" src="https://www.youtube.com/embed/Uzf9oDvmFX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="wrapper_three">
+          <div class="wrap_three_title">
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">인생 샤프 TOP5</p>
+            <p class="video_intro">조회수 266만회 (2018.10.13.)</p>
+          </div>
+        </div>
+        <div class="wrapper_three">
+          <div class="wrap_three_title">
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/hGqSN8NfWUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">최악의 급식 메뉴 TOP5</p>
+            <p class="video_intro">조회수 164만회 (2019.08.31.)</p>
+          </div>
+        </div>
+        <div class="wrapper_three">
+          <div class="wrap_three_title">
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/Uzf9oDvmFX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">문과 VS 이과 차이 TOP3</p>
+            <p class="video_intro">조회수 105만회 (2019.03.11.)</p>
+          </div>
+        </div>
       </div>
   </div>
   <div class="blank"></div>
