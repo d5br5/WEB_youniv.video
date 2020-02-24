@@ -17,16 +17,16 @@
 
 
 <div class="divider">
+  <a href="https://www.youtube.com/channel/UCelPbnoAuzgRDFJAsJ4Du7A"  target="_blank">
   <div class="wrapping">
-
       <img class="original_logo" src="./img/yonkotv.jpg" alt="연고티비" align="middle">
         <h1>연고티비</h1>
-        <h3>누적 조회수 1억 회를 달성한<br class="br_2"> "에듀테인먼트(Edutainent)" 채널</h3>
+        <h3>누적 조회수 1억 회를 달성한<br class="br_2"> "에듀테인먼트(Edutainment)" 채널</h3>
         <p>
           실제 연·고대 재학생들이 크리에이터로 활동하며 중·고등학생 구독자들을 대상으로 자칫 딱딱하게 느껴질 수 있는 공부, 입시에 관한 다양한 정보를 재미있게 전달하며, 더 나아가 학생 라이프스타일 전반에 대한 공감 콘텐츠를 제작하고 있습니다.
         </p>
   </div>
-
+</a>
 
 
 <div class="wrapping">
@@ -75,6 +75,7 @@
 
 
 <div class="divider">
+  <a href="https://www.youtube.com/channel/UCPvwqht-XvcbbaUavs53ejg" target="_blank">
   <div class="wrapping">
     <img class="original_logo" src="./img/ipsidukku.jpg" alt="입시덕후" align="middle">
         <h1>입시덕후</h1>
@@ -84,6 +85,7 @@
         </p>
 
     </div>
+    </a>
 
 
   <div class="wrapping">

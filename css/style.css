@@ -71,7 +71,7 @@ h2:after{ content:"";
 .main_video_text{margin: auto; display: table-cell; vertical-align: middle; text-align: center; color: white;}
 
 
-.wrapper_three{width: 32.8%; display: inline-block; float: left; margin: auto; margin-top: 30px; margin-left: 2px; margin-right: 2px;}
+.wrapper_three{width: 32.8%; display: inline-block; float: left; margin: auto; margin-left: 2px; margin-right: 2px;}
 .wrapper_two{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px; text-align: center;}
 
 .wrap_image_title{text-align: center;}
@@ -92,12 +92,12 @@ h2:after{ content:"";
 .video_intro{text-align: right; font-size: 0.9375rem; font-weight: normal; line-height: 1.5rem;}
 
 .ip_title{width:300px; text-align: center; margin-left: 0; background-color: black; color:white; padding: 10px 0;}
-.ip_index{display: inline-block; float: left; width: 40%; margin: 20px 0;}
-.ip_image{}
-.ip_intro{}
-.ip_video{display: inline-block;float: right; width:45%; }
-.ip_wrap{margin-bottom: 50px;}
-
+.ip_index{display: inline-block; float: left; width: 420px;; margin: 20px 0;}
+.ip_image{display: inline-block; width: 300px;}
+.ip_intro{display: inline-block; width: 100%;}
+.ip_video{display: inline-block; height:270px; width: 100%;}
+.ip_wrap{margin-bottom: 50px; display: inline-block; width: 100%;}
+.ip_video_wrap{float: right; width:42%; margin: 20px 10px 40px 0;}
 
 div.content
 {
@@ -241,12 +241,18 @@ background-position: center; background-size: contain; margin: 0;}
   p{font-size: 0.875rem;}
   .business_copy{font-size: 25px;}
   .wrap_contact_address{width: 95%; margin-left: 5%; height: 170px; }
-  iframe{height: 200px;}
+  iframe{height: 180px;}
 
   .rpr_button_white{background-color: white; width: 70%; padding-left: 20px;
         margin-top: 0px; margin-left: 0; float:left; margin-right: 1%;}
   .rpr_text_white{padding: 9px 0px; color:black; text-align: left; margin-top: 20px;}
   .board_header_title{text-align: center; margin-bottom: 20px;}
+  .ip_video {height: 185px;}
+  .ip_video_wrap {width: 100%; margin-right: 0;}
+  .ip_index{width:100%;}
+  .ip_title{width:100%;}
+  .ip_image{width:100%;}
+  .ip_wrap{margin-bottom: 0;}
 }
 
 @media (min-width: 470px){

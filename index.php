@@ -114,10 +114,10 @@
     </div>
     <div class="wrap_contact_address">
         <div class="contact_address_title">
-          <p>주 소<br></p>
+          <p>주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소<br></p>
           <p><br>대표전화<br></p>
-          <p><br>팩스<br></p>
-          <p><br>이메일<br></p>
+          <p><br>팩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스<br></p>
+          <p><br>이 메 일<br></p>
           <p><br>영업시간</p>
         </div>
         <div class="contact_address_text">
