@@ -9,15 +9,10 @@
 
 
 <div class="divider">
-  <div class="main_video">
-    <div class="main_video_text">
-      슬로건
-    </div>
-  </div>
-  <br>
+  <img width="100%" src="./img/banner/web_recruit.jpg" alt="유니브">
+  <br><div class="blank"></div>
   <h1 class="title_divider">인재채용</h1>
-  <h3>유니브와 함께하실 훌륭한 유니버를 찾습니다.</h3>
-  <br>
+  <div class="blank"></div>
 
 <div class="board">
   <ul>

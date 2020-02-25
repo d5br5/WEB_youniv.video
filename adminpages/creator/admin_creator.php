@@ -23,11 +23,11 @@
 
           <table border="1">
               <tr>
-                  <td>crt_no</td><td>crt_name</td><td>crt_intro</td><td>crt_area</td><td>crt_link</td><td>crt_subsc</td>
-                  <td>crt_directory</td><td>crt_imagename</td><td>UPDATE</td><td>DELETE</td>
+                  <td>고유번호</td><td>채널명</td><td>채널소개</td><td>분야</td><td>채널ID</td><td>중요도</td>
+                  <td>이미지저장폴더</td><td>이미지명</td><td>UPDATE</td><td>DELETE</td>
               </tr>
               <?php
-                  $sql='select * from creator order by crt_no desc;';
+                  $sql='select * from creator order by crt_num asc;';
                   $result= mysqli_query($conn, $sql);
 
       //$row에는 DB테이블에 저장된 정보가 한줄씩 배열
@@ -38,7 +38,7 @@
                                  'crt_intro'=>htmlspecialchars($row['crt_intro']),
                                  'crt_area'=>htmlspecialchars($row['crt_area']),
                                  'crt_link'=>htmlspecialchars($row['crt_link']),
-                                 'crt_subsc'=>htmlspecialchars($row['crt_subsc']),
+                                 'crt_num'=>htmlspecialchars($row['crt_num']),
                                  'crt_directory'=>htmlspecialchars($row['crt_directory']),
                                  'crt_imagename'=>htmlspecialchars($row['crt_imagename']),
                                )
@@ -49,7 +49,7 @@
                       <td><?=$filtered['crt_intro']?></td>
                       <td><?=$filtered['crt_area']?></td>
                       <td><?=$filtered['crt_link']?></td>
-                      <td><?=$filtered['crt_subsc']?></td>
+                      <td><?=$filtered['crt_num']?></td>
                       <td><?=$filtered['crt_directory']?></td>
                       <td><?=$filtered['crt_imagename']?></td>
                       <td><a href="admin_creator.php?crt_no=<?=$filtered['crt_no']?>">UPDATE</a></td>
@@ -66,7 +66,7 @@
           </table>
           <?php
 
-      $escaped=array('crt_name'=>'','crt_intro'=>'','crt_area'=>'','crt_link'=>'','crt_subsc'=>'','crt_directory'=>'','crt_imagename'=>'');
+      $escaped=array('crt_name'=>'','crt_intro'=>'','crt_area'=>'','crt_link'=>'','crt_num'=>'','crt_directory'=>'','crt_imagename'=>'');
       $button='CREATE CREATOR';
       $form_action='admin_creator_process_create.php';
       $form_id='';
@@ -82,7 +82,7 @@
           $escaped['crt_intro']=htmlspecialchars($row['crt_intro']);
           $escaped['crt_area']=htmlspecialchars($row['crt_area']);
           $escaped['crt_link']=htmlspecialchars($row['crt_link']);
-          $escaped['crt_subsc']=htmlspecialchars($row['crt_subsc']);
+          $escaped['crt_num']=htmlspecialchars($row['crt_num']);
           $escaped['crt_directory']=htmlspecialchars($row['crt_directory']);
           $escaped['crt_imagename']=htmlspecialchars($row['crt_imagename']);
 
@@ -101,7 +101,7 @@
              <p><textarea name="crt_intro" cols="30" rows="10" placeholder="크리에이터 소개글"><?=$escaped['crt_intro']?></textarea></p>
              <p><input type="text" name="crt_area" placeholder="분야" value="<?=$escaped['crt_area']?>"></p>
              <p><input type="text" name="crt_link" placeholder="채널 url(youtube.com/channel/ 이후 주소)" value="<?=$escaped['crt_link']?>"></p>
-             <p><input type="text" name="crt_subsc" placeholder="구독자 수" value="<?=$escaped['crt_subsc']?>"></p>
+             <p><input type="text" name="crt_num" placeholder="중요도" value="<?=$escaped['crt_num']?>"></p>
               <input type="file" name="myfile">
               <p><input type="submit" value="<?=$button?>"></p>
          </form>

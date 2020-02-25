@@ -7,7 +7,8 @@
     <title>유니브 test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="./img/youniv_ci.png">
+    <META HTTP-EQUIV="refresh" CONTENT="600">
+    <link rel="shortcut icon" href="./img/140ci.png">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/function.css" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>

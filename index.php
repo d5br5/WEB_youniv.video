@@ -10,11 +10,7 @@
 
 
 <div class="divider">
-  <div class="main_video">
-    <div class="main_video_text">
-      유니브는 지식과 정보를 전달하는<br>러닝(learning) MCN이자 뉴미디어 교육 콘텐츠 기업입니다.
-    </div>
-  </div>
+  <img width="100%" src="./img/banner/web_main.jpg" alt="유니브">
 </div>
 
 <div class="divider">
@@ -33,7 +29,7 @@
             </div>
           </div>
           <div class="main_content_normal_text">
-            <p>학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned&Operated 채널)을 직접 운영합니다. </p>
+            <p>학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned & Operated 채널)을 직접 운영합니다. </p>
           </div>
         </div>
       </a>
@@ -67,7 +63,10 @@
 
   <div class="blank_hide"></div>
 
-  <div class="wrapping_2">
+<div class="wrapping">
+  <div class="wrapper_three_hidden">
+
+  </div>
     <a href="business_brand.php">
       <div class="wrapper_three">
         <div class="wrap_image_title">
@@ -94,14 +93,16 @@
         </div>
       </div>
     </a>
-  </div>
+    </div>
 </div>
+
 <div class="blank"></div>
 <div class="divider">
   <div>
     <h1 class="title_divider">HISTORY</h1>
   </div>
-  <img src="./img/youniv_history.png" alt="유니브 역사 이미지" style="width:100%">
+  <img width="100%" src="./img/banner/web_history.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_history.jpg" alt="history" class="mobile_image">
 </div>
 <div class="divider">
   <div>

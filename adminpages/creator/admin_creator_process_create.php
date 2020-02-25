@@ -10,16 +10,16 @@ $filtered=array(
   'crt_intro'=>mysqli_real_escape_string($conn, $_POST['crt_intro']),
   'crt_area'=>mysqli_real_escape_string($conn, $_POST['crt_area']),
   'crt_link'=>mysqli_real_escape_string($conn, $_POST['crt_link']),
-  'crt_subsc'=>mysqli_real_escape_string($conn, $_POST['crt_subsc']),
+  'crt_num'=>mysqli_real_escape_string($conn, $_POST['crt_num']),
   'crt_directory'=>mysqli_real_escape_string($conn, $uploads_dir),
   'crt_imagename'=>mysqli_real_escape_string($conn, $name));
 
 
 
-$sql="INSERT INTO creator(crt_name, crt_intro, crt_area, crt_link, crt_subsc, crt_directory, crt_imagename)
+$sql="INSERT INTO creator(crt_name, crt_intro, crt_area, crt_link, crt_num, crt_directory, crt_imagename)
     VALUES('{$filtered['crt_name']}','{$filtered['crt_intro']}',
       '{$filtered['crt_area']}','{$filtered['crt_link']}',
-      '{$filtered['crt_subsc']}','{$filtered['crt_directory']}','{$filtered['crt_imagename']}');";
+      '{$filtered['crt_num']}','{$filtered['crt_directory']}','{$filtered['crt_imagename']}');";
 
 $result=mysqli_query($conn,$sql);
 

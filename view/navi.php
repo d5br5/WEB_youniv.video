@@ -3,7 +3,7 @@
   <div  class="wrap" id="nav_wrap">
     <nav>
       <div class="topnav" id="myTopnav" style="width:100%">
-        <a href="./index.php" class="gohome" style="float:left">YOUNIV</a>
+        <a href="./index.php" class="gohome" style="float:left"><img height="18rem" src="../img/youniv_logo.png" alt="로고" style="padding-top:0.4rem;"></a>
           <div class="topnav_wrap">
             <a href="./original.php" class="nav_button">오리지널</a>
             <a href="./creator.php" class="nav_button">파트너십</a>

@@ -8,13 +8,7 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 <div class="divider">
-  <div>
-    <h1>파트너십</h1>
-  </div>
-
-  <div>
-    <h3>유니브 소속 파트너 채널들이 보다 더 높은 <br class="br_2">영향력을 얻을 수 있도록 다양한 서비스를 제공합니다.</h3>
-  </div>
+  <img width="100%" src="./img/banner/web_partnership.jpg" alt="유니브">
   <div class="blank"></div>
   <div class="apply_button">
     <a href="mailto:support@youniv.video?Subject=신규파트너문의" target="_top"><div class="apply_text">신규 파트너 문의하기</div></a>
@@ -87,7 +81,7 @@
   </div>
   <div class="crt_wrapping">
   <?php
-      $sql='select * from creator order by crt_name asc;';
+      $sql='select * from creator order by crt_num asc;';
       $result= mysqli_query($conn, $sql);
   while($row=mysqli_fetch_array($result)){
       $filtered=array('crt_no'=>htmlspecialchars($row['crt_no']),

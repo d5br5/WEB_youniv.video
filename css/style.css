@@ -1,4 +1,5 @@
-*{font-family: 'Do Hyeon', sans-serif; font-family: 'Noto Sans KR', sans-serif; margin: auto; font-weight: bold;}
+*{font-family: 'Do Hyeon', sans-serif; font-family: 'Noto Sans KR', sans-serif; margin: auto; font-weight: bold;
+letter-spacing: -0.2px;}
 html{font-size: 16px;}
 body{margin: 0;}
 
@@ -10,7 +11,7 @@ p{line-height: 2em;}
 
 table{border-collapse: collapse;}
 .wrapping{display: inline-block; width: 100%;}
-.wrapping_2{display: inline-block; width: 100%; padding-left: 17%;}
+.wrapping_2{display: inline-block; width: 70%; padding-left: 15%; }
 
 
 a:link{color:black;}
@@ -27,10 +28,19 @@ color: black;
 padding : 2.5rem 1.25rem;
 }
 
-.original_logo{display: inline-block; border: 1px solid gray; border-radius: 70%;
-  width:230px; float: left; margin-right: 6%; margin-bottom: 70px;}
-.original_text_wrap{display: inline-block; float: right; text-align: left; width: 77%;}
-.original_logo_wrap{display: inline-block; width: 20%;}
+.original_logo{display: inline-block; width: 100%; float: left; margin-bottom: 70px;}
+.original_text_wrap{display:inline-block; float: left; width:74%;}
+.original_logo_wrap{display:inline-block; float: left; width:23%; margin-right:3%;}
+.original_logo_title{display:inline-block; float: left; width:74%; margin-top: 10px;}
+
+.original_crt_wrap{display: inline-block;width: 100%;}
+.original_crt{display: inline-block; width: 31.3%; float: left; margin: 1%; overflow: hidden; border-radius: 1.5%;}
+
+.teacher_wrap{width: 100%; display: inline-block; margin-bottom: 40px;}
+.teacher_image{width: 42.5%; float: left; display: inline-block; margin-right: 2.5%;}
+.teacher_next{width: 32%; margin: 1%; display: inline-block; float: left;}
+.video_wrapper{position: relative; padding-bottom: 25.6%; padding-top: 30px; height: 0; overflow: hidden; margin: 0;}
+.video_wrapper iframe, .video_wrapper object, .video_wrapper embed{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
     /* 화면 너비 0 ~ 1306px ~ PC*/
 
@@ -72,6 +82,7 @@ h2:after{ content:"";
 
 
 .wrapper_three{width: 32.8%; display: inline-block; float: left; margin: auto; margin-left: 2px; margin-right: 2px;}
+.wrapper_three_hidden{width: 17%; display: inline-block; float: left; height: 200px;}
 .wrapper_two{width: 50%; display: inline-block; float: left; margin: auto; margin-top: 20px; text-align: center;}
 
 .wrap_image_title{text-align: center;}
@@ -162,7 +173,7 @@ background-position: center; background-size: contain; margin: 0;}
   #nav_wrap{left: 50%; margin-left: -50%; width:100%;}
   .wrap_contact_map{width: 49%;}
   .wrap_contact_address{width: 49%; margin-left: 2%;}
-  .original_logo{width: 20%;}
+    .br_0{display: none;}
 }
 
 @media(min-width:1306px){.br_only1{display: none;}}
@@ -178,6 +189,8 @@ background-position: center; background-size: contain; margin: 0;}
 
 /* 화면 너비 0 ~ 768px 태블릿 */
 @media (max-width: 850px){
+.wrapper_three_hidden{display: none;}
+
 .br_no{display: none;}
 	nav, section, footer {width: 94%;}
   html{font-size: 13px;}
@@ -223,7 +236,6 @@ background-position: center; background-size: contain; margin: 0;}
     width: 100%;
     text-align: left;
   }
-  .wrapping_2{display: inline-block; width: 100%; padding-left: 0;}
   .wrap_contact_address{margin-top: 30px;}
 
   .rc_form, .rc_group, .rc_career{width: 15%;}
@@ -232,9 +244,11 @@ background-position: center; background-size: contain; margin: 0;}
 }
 
 
+@media(min-width:570px){.mobile_image{display: none;}}
 /* 화면 너비 0 ~ 480px 스마트폰*/
 @media (max-width: 570px){
-  html{font-size: 10px;}
+  *{letter-spacing: -1px;}
+  html{font-size: 12px;}
   h1{font-size: 2.5rem;}
   h2{font-size: 1.625rem;}
   h3{font-size: 1rem; padding-bottom: 5px;}
@@ -253,6 +267,7 @@ background-position: center; background-size: contain; margin: 0;}
   .ip_title{width:100%;}
   .ip_image{width:100%;}
   .ip_wrap{margin-bottom: 0;}
+  .web_image{display: none;}
 }
 
 @media (min-width: 470px){

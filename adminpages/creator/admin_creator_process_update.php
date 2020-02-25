@@ -10,7 +10,7 @@ $filtered=array(
   'crt_intro'=>mysqli_real_escape_string($conn, $_POST['crt_intro']),
   'crt_area'=>mysqli_real_escape_string($conn, $_POST['crt_area']),
   'crt_link'=>mysqli_real_escape_string($conn, $_POST['crt_link']),
-  'crt_subsc'=>mysqli_real_escape_string($conn, $_POST['crt_subsc']),
+  'crt_num'=>mysqli_real_escape_string($conn, $_POST['crt_num']),
   'crt_directory'=>mysqli_real_escape_string($conn, $uploads_dir),
   'crt_imagename'=>mysqli_real_escape_string($conn, $name)
     );
@@ -21,7 +21,7 @@ $sql="UPDATE creator
     crt_intro='{$filtered['crt_intro']}',
     crt_area='{$filtered['crt_area']}',
     crt_link='{$filtered['crt_link']}',
-    crt_subsc='{$filtered['crt_subsc']}',
+    crt_num='{$filtered['crt_num']}',
     crt_directory='{$filtered['crt_directory']}',
     crt_imagename='{$filtered['crt_imagename']}'
     WHERE crt_no={$_POST['crt_no']}

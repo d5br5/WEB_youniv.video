@@ -21,9 +21,7 @@
   </div>
 
   <div class="blank"></div>
-  <div>
-    <p style="text-align:center" class="business_copy">유니브의 <br class="br_3"> 콘텐츠 역량을 기반으로 <br class="br_1">브랜드 파워를 강화합니다.</p>
-  </div>
+    <img width="100%" src="./img/banner/web_brand.jpg" alt="유니브">
   <div class="blank"></div>
   <div class="apply_button">
     <a href="mailto:ad@youniv.video?Subject=광고제휴문의" target="_top"><div class="apply_text">광고 제휴 문의하기</div></a>
@@ -34,7 +32,7 @@
     <h2>브랜드 광고</h2>
   </div>
   <div>
-    <h3>유니브의 채널들은 각각 정밀한 타겟과 확실한 카테고리를 점하고 있으며 <br>
+    <h3>유니브의 채널들은 정밀한 타겟과 확실한 카테고리를 점하고 있으며 <br>
        이를 바탕으로 클라이언트 제품에 가장 적합한 콘텐츠를 제작하여 <br class="br_3">높은 광고효과를 창출합니다.<br></h3>
   </div>
   <div class="rpr_button">

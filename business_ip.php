@@ -19,12 +19,9 @@
       IP 사업
     </div></a>
   </div>
-<div class="blank"></div>
 
   <div class="blank"></div>
-  <div>
-    <p style="text-align:center" class="business_copy">채널의 <br class="br_3"> 브랜드 아이덴티티를 기반으로 <br class="br_1"> 다양한 상품을 제작합니다.</p>
-  </div>
+    <img width="100%" src="./img/banner/web_ip.jpg" alt="유니브">
   <div class="blank"></div>
 <div class="blank"></div>
 
