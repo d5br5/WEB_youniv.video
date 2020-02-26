@@ -6,21 +6,22 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="divider">
-  <img width="100%" src="./img/banner/web_original.jpg" alt="유니브">
-</div>
 
+  <img width="100%" src="./img/banner/web_original.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_original.jpg" alt="history" class="mobile_image">
+<section>
+<div class="blank"></div>
 
 <div class="divider">
   <a href="https://www.youtube.com/channel/UCelPbnoAuzgRDFJAsJ4Du7A"  target="_blank">
   <div class="wrapping">
 
         <div class="original_logo_wrap">
-            <img class="original_logo" src="./img/logo/logo_yonkotv.png" alt="연고티비" align="middle">
+            <img class="original_logo" src="./img/logo/logo_yonkotv.png" alt="연고티비" align="bottom">
         </div>
-        <div class="original_logo_title">
+        <div class="original_logo_title" id="title_2">
           <h1>연고티비</h1>
-          <h3>누적 조회수 1억 회를 달성한<br class="br_2"> "에듀테인먼트(Edutainment)" 채널</h3>
+          <h3>누적 조회수 1억 회를 달성한 <br class="br_n"> "에듀테인먼트(Edutainment)" 채널</h3>
           </div>
           <div class="original_text_wrap">
           <p>

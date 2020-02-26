@@ -8,9 +8,9 @@ ul {
 }
 
 
-/* Add a black background color to the top navigation */
+/* Add a #303030 background color to the top navigation */
 .topnav {
-  background-color: white;
+  background-color: #303030;
   overflow: hidden;
 }
 
@@ -18,7 +18,7 @@ ul {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,8 +35,11 @@ ul {
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover {
+  background-color: white;
+  color: #303030;
+}
+.topnav a:hover.gohome{
   background-color: black;
-  color: white;
 }
 
 .topnav_wrap{float: right;}
@@ -58,7 +61,7 @@ ul {
     bottom: 50px;
     right: 5%;
     transition: background-color .3s,opacity .5s, visibility .5s;
-    background-color: black;
+    background-color: #303030;
     color: white;
     text-align: center;
     font-size: 0.9375rem;
@@ -95,14 +98,14 @@ ul {
   font-size: 1.25rem;
   margin: auto 1.25rem;
   font-weight: bold;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #303030;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .business_menu:hover{
   font-weight: bold;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #303030;
 }
 
 #map{width:100%;height:300px;}

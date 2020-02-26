@@ -7,24 +7,27 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="divider">
+<div class="divider_2">
 
   <div id="business_navi">
     <a href="business_brand.php">
-    <div class="business_menu">
+    <div class="business_menu" style="float:left">
       광고 사업
     </div></a>
     <a href="business_ip.php">
-    <div class="business_menu_active">
+    <div class="business_menu_active" style="float:right">
       IP 사업
     </div></a>
   </div>
+</div>
 
-  <div class="blank"></div>
-    <img width="100%" src="./img/banner/web_ip.jpg" alt="유니브">
-  <div class="blank"></div>
+
+  <img width="100%" src="./img/banner/web_ip.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_ip.jpg" alt="history" class="mobile_image">
+<section>
 <div class="blank"></div>
 
+<div class="divider">
   <div>
     <h2>대표 상품</h2>
   </div>

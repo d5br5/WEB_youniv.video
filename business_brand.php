@@ -7,29 +7,31 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="divider">
+<div class="divider_2">
 
   <div id="business_navi">
     <a href="business_brand.php">
-    <div class="business_menu_active">
+    <div class="business_menu_active" style="float:left">
       광고 사업
     </div></a>
     <a href="business_ip.php">
-    <div class="business_menu">
+    <div class="business_menu"  style="float:right">
       IP 사업
     </div></a>
   </div>
+</div>
 
-  <div class="blank"></div>
-    <img width="100%" src="./img/banner/web_brand.jpg" alt="유니브">
-  <div class="blank"></div>
+  <img width="100%" src="./img/banner/web_brand.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_brand.jpg" alt="history" class="mobile_image">
+<section>
+<div class="divider">
   <div class="apply_button">
     <a href="mailto:ad@youniv.video?Subject=광고제휴문의" target="_top"><div class="apply_text">광고 제휴 문의하기</div></a>
   </div>
 <div class="blank"></div>
 
   <div>
-    <h2>브랜드 광고</h2>
+    <b><h2>브랜드 광고</h2></b>
   </div>
   <div>
     <h3>유니브의 채널들은 정밀한 타겟과 확실한 카테고리를 점하고 있으며 <br>
@@ -69,7 +71,7 @@
     <h2>브랜드 채널</h2>
   </div>
   <div>
-    <h3>유니브는 오리지널 채널 운영 및 <br class="br_3"> 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로<br class="br_3"> 기업 유튜브 채널 운영 대행 서비스를 제공합니다</h3>
+    <h3>유니브는 오리지널 채널 운영 및 <br class="br_3"> 파트너 채널 매니지먼트를 통해 확보한 <br> 유튜브에 대한 이해도와 제작 역량을 기반으로<br class="br_3"> 기업 유튜브 채널 운영 대행 서비스를 제공합니다.</h3>
   </div>
   <div class="rpr_button">
     <div class="rpr_text">대표 사례</div>

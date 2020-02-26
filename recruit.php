@@ -8,9 +8,12 @@
 
 
 
-<div class="divider">
-  <img width="100%" src="./img/banner/web_recruit.jpg" alt="유니브">
+
+  <img width="100%" src="./img/banner/web_recruit.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_recruit.jpg" alt="history" class="mobile_image">
+  <section>
   <br><div class="blank"></div>
+<div class="divider">
   <h1 class="title_divider">인재채용</h1>
   <div class="blank"></div>
 
@@ -56,6 +59,7 @@
     </div>
   </ul>
 </div>
+<div class="blank"></div>
 </div>
 
 

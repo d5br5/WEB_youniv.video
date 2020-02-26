@@ -12,7 +12,7 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/function.css" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zy3p2i0nyp"></script>

@@ -7,9 +7,12 @@
 <?php require("./view/navi.php"); ?>
 <?php // require("./view/function_alpha.php"); ?>
 
-<div class="divider">
-  <img width="100%" src="./img/banner/web_partnership.jpg" alt="유니브">
-  <div class="blank"></div>
+
+  <img width="100%" src="./img/banner/web_partnership.jpg" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_partnership.jpg" alt="history" class="mobile_image">
+<section>
+  <div class="divider">
+
   <div class="apply_button">
     <a href="mailto:support@youniv.video?Subject=신규파트너문의" target="_top"><div class="apply_text">신규 파트너 문의하기</div></a>
   </div>
@@ -22,9 +25,9 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/management.png" alt="매니지먼트">
+            <img class="image_mini" src="./img/symbol/management.jpg" alt="매니지먼트">
           <div>
-            <h3 class="center">매니지먼트</h3>
+            <h3 class="center" style="font-weight:900">매니지먼트</h3>
           </div>
           </div>
           <div class="creator_content_normal_text">
@@ -39,9 +42,9 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/studio.png" alt="스튜디오">
+            <img class="image_mini" src="./img/symbol/studio.jpg" alt="스튜디오">
           <div>
-            <h3 class="center">콘텐츠 제작 지원</h3>
+            <h3 class="center" style="font-weight:900">콘텐츠 제작지원</h3>
           </div>
           </div>
           <div class="creator_content_normal_text" id="crt_text_short">
@@ -56,9 +59,9 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/studio.png" alt="광고">
+            <img class="image_mini" src="./img/symbol/business.jpg" alt="광고">
           <div>
-            <h3 class="center">비즈니스</h3>
+            <h3 class="center" style="font-weight:900">비즈니스</h3>
           </div>
           </div>
           <div class="creator_content_normal_text">
