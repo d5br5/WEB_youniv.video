@@ -15,6 +15,8 @@ include("../setting/dbconn.php");
 
   <body>
 
+    <div style="text-align:center; padding : 300px 0;">
+    <span style="text-align:center;">
     <?php if(!isset($_SESSION['ss_mb_id'])){ ?>
 
 
@@ -48,6 +50,11 @@ echo "<script> location.replace('../admin.php');</script>";
  ?>
 
 <?php } ?>
+
+
+
+</span>
+</div>
   </body>
 </html>
 

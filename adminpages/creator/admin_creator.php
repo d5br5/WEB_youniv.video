@@ -24,7 +24,7 @@
           <table border="1">
               <tr>
                   <td>고유번호</td><td>채널명</td><td>채널소개</td><td>분야</td><td>채널ID</td><td>중요도</td>
-                  <td>이미지저장폴더</td><td>이미지명</td><td>UPDATE</td><td>DELETE</td>
+                  <td>UPDATE</td><td>DELETE</td>
               </tr>
               <?php
                   $sql='select * from creator order by crt_num asc;';
@@ -50,8 +50,7 @@
                       <td><?=$filtered['crt_area']?></td>
                       <td><?=$filtered['crt_link']?></td>
                       <td><?=$filtered['crt_num']?></td>
-                      <td><?=$filtered['crt_directory']?></td>
-                      <td><?=$filtered['crt_imagename']?></td>
+
                       <td><a href="admin_creator.php?crt_no=<?=$filtered['crt_no']?>">UPDATE</a></td>
                       <td>
                           <form action="admin_creator_process_delete.php" method="post" onsubmit="if(!confirm('sure?')){return false;}">
@@ -93,21 +92,32 @@
           $form_id='<input type="hidden" name="crt_no" value="'.$_GET['crt_no'].'">';
       }
       ?>
-
+<span style="text-align:center; line-height:2rem">
+  <br><br>
           <h1>POST</h1>
+          <br>
+          <p> <주의사항><br>이미지 파일 첨부를 반드시 해주세요~<br>수정시에도 반드시 필요합니다.<br><br></p>
          <form action="<?=$form_action?>" enctype="multipart/form-data" method="post">
               <?=$form_id?>
-             <p><input type="text" name="crt_name" placeholder="크리에이터명" value="<?=$escaped['crt_name']?>"></p>
-             <p><textarea name="crt_intro" cols="30" rows="10" placeholder="크리에이터 소개글"><?=$escaped['crt_intro']?></textarea></p>
-             <p><input type="text" name="crt_area" placeholder="분야" value="<?=$escaped['crt_area']?>"></p>
-             <p><input type="text" name="crt_link" placeholder="채널 url(youtube.com/channel/ 이후 주소)" value="<?=$escaped['crt_link']?>"></p>
-             <p><input type="text" name="crt_num" placeholder="중요도" value="<?=$escaped['crt_num']?>"></p>
-              <input type="file" name="myfile">
+             <p><input type="text" name="crt_name" style="width:300px;" placeholder="크리에이터명" value="<?=$escaped['crt_name']?>"></p>
+             <br>
+             <p><textarea name="crt_intro" cols="30" rows="10" style="width:300px;" placeholder="크리에이터 소개글 - 입력 안해도 무방"><?=$escaped['crt_intro']?></textarea></p>
+             <br>
+             <p><input style="width:300px;" type="text" name="crt_area" placeholder="분야 - 입력 안해도 무방" value="<?=$escaped['crt_area']?>"></p>
+             <br>
+             <p><input style="width:300px;" type="text" name="crt_link" placeholder="채널 url(youtube.com/channel/ 이후 주소)" value="<?=$escaped['crt_link']?>"></p>
+             <br>
+             <p><input type="text" name="crt_num" placeholder="중요도" style="width:300px;" value="<?=$escaped['crt_num']?>"></p>
+             <br>
+             <p>채널 프로필 사진</p>
+              <input style="border:1px solid black;" type="file" name="myfile">
+              <p>'jpg, jpeg, png, gif 파일만 허용</p>
+              <br>
               <p><input type="submit" value="<?=$button?>"></p>
+
          </form>
-         <p>'jpg, jpeg, png, gif 파일만 허용</p>
 
-
+</span>
 
 
  <?php

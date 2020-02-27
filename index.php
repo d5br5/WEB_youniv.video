@@ -17,7 +17,7 @@
 <div class="divider">
   <div>
     <h1 class="title_divider" style="padding-bottom:0px;">What We Do</h1>
-    <p class="gomenu">각 설명을 클릭하시면 해당 페이지로 이동합니다.</p>
+    <p class="gomenu" style="color:gray">각 설명을 클릭하시면 해당 페이지로 이동합니다.</p>
   </div>
 <div class="blank"></div>
 

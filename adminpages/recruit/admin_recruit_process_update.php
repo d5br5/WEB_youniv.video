@@ -11,7 +11,6 @@ $filtered=array(
   'rc_form'=>mysqli_real_escape_string($conn, $_POST['rc_form']),
   'rc_career'=>mysqli_real_escape_string($conn, $_POST['rc_career']),
   'rc_deadline'=>mysqli_real_escape_string($conn, $_POST['rc_deadline']),
-  'rc_text'=>mysqli_real_escape_string($conn, $_POST['rc_text']),
   'rc_directory'=>mysqli_real_escape_string($conn, $uploads_dir),
   'rc_imagename'=>mysqli_real_escape_string($conn, $name)
     );
@@ -23,7 +22,6 @@ $sql="UPDATE recruit
     rc_form='{$filtered['rc_form']}',
     rc_career='{$filtered['rc_career']}',
     rc_deadline='{$filtered['rc_deadline']}',
-    rc_text='{$filtered['rc_text']}',
     rc_directory='{$filtered['rc_directory']}',
     rc_imagename='{$filtered['rc_imagename']}'
     WHERE rc_no={$_POST['rc_no']}

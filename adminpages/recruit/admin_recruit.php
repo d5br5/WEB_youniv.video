@@ -23,8 +23,8 @@
 
   <table border="1">
       <tr>
-          <td>rc_no</td><td>rc_title</td><td>rc_group</td><td>rc_form</td><td>rc_career</td>
-          <td>rc_deadline</td><td>rc_text</td><td>rc_directory</td><td>rc_imagename</td><td>UPDATE</td><td>DELETE</td>
+          <td>번호</td><td>제목</td><td>직군</td><td>기한</td><td>대상</td>
+          <td>마감기한</td><td>UPDATE</td><td>DELETE</td>
       </tr>
       <?php
           $sql='select * from recruit order by rc_no desc;';
@@ -51,9 +51,6 @@
               <td><?=$filtered['rc_form']?></td>
               <td><?=$filtered['rc_career']?></td>
               <td><?=$filtered['rc_deadline']?></td>
-              <td><?=$filtered['rc_text']?></td>
-              <td><?=$filtered['rc_directory']?></td>
-              <td><?=$filtered['rc_imagename']?></td>
               <td><a href="admin_recruit.php?rc_no=<?=$filtered['rc_no']?>">UPDATE</a></td>
               <td>
                   <form action="admin_recruit_process_delete.php" method="post" onsubmit="if(!confirm('sure?')){return false;}">
@@ -103,18 +100,27 @@ if(isset($_GET['rc_no'])){
 
 
     <h1 style="text-align:center">POST</h1>
+    <span style="text-align:center; line-height:2rem">
+
+      <p> <주의사항><br>마감기한 설정과 이미지 파일 첨부를 반드시 해주세요~<br>수정시에도 반드시 필요합니다.<br>
+        상시모집이어도 날짜설정 아무거나 해주세요 어차피 표시 안됩니다.<br><br></p>
    <form action="<?=$form_action?>" enctype="multipart/form-data" method="post">
         <?=$form_id?>
        <p><input type="text" name="rc_title" placeholder="글 제목" value="<?=$escaped['rc_title']?>"></p>
+       <br>
        <p><input type="text" name="rc_group" placeholder="직군" value="<?=$escaped['rc_group']?>"></p>
+       <br>
        <p><input type="text" name="rc_form" placeholder="형태(상시)" value="<?=$escaped['rc_form']?>"></p>
+       <br>
        <p><input type="text" name="rc_career" placeholder="신입/경력" value="<?=$escaped['rc_career']?>"></p>
-       <p><input type="date" name="rc_deadline" value="<?=$escaped['rc_deadline']?>"></p>
-       <p><textarea name="rc_text" cols="30" rows="10" placeholder="글 내용"><?=$escaped['rc_text']?></textarea></p>
-       <?= '<input type="file" name="myfile">' ?>
+       <br>
+       <p>마감기한 &nbsp;<input type="date" name="rc_deadline" value="<?=$escaped['rc_deadline']?>"></p>
+       <br>
+       채용글 이미지<br> <input style="border:1px solid black;" type="file" name="myfile">
+       <p>'jpg, jpeg, png, gif 파일만 허용</p><br><br>
         <p><input type="submit" value="<?=$button?>"></p>
    </form>
-   <p>'jpg, jpeg, png, gif 파일만 허용</p>
+ </span>
 </div>
 
 <?php

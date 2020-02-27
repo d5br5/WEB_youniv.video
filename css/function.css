@@ -31,7 +31,6 @@ ul {
   display: none;
 }
 
-
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover {
   background-color: black;
@@ -39,7 +38,6 @@ ul {
 a:hover.gohome{
   background-color: black;
 }
-
 
 .topnav_wrap{float: right;}
 
@@ -111,7 +109,6 @@ a:hover.gohome{
 
 @media(max-width:850px){
   .topnav_wrap{padding-top: 50px;}
-
 }
 
 @media (max-width: 470px){
