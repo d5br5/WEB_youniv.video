@@ -3,8 +3,10 @@
   <div  class="wrap" id="nav_wrap">
     <nav>
       <div class="topnav" id="myTopnav" style="width:100%">
-        <a href="./index.php" class="gohome" style="float:left">
-          <img class="main_logo" height="18rem" src="../img/youniv_logo_wh.png" alt="로고" style="padding-top:0.4rem;">
+        <a href="./index.php" class="gohome" id="gohome" style="float:left">
+          <img class="main_logo" id="gohome" height="18rem" src="../img/youniv_logo_wh.png"  alt="로고" style="padding-top:0.4rem;">
+<!-- onmouseover="(this.src='../img/youniv_logo_gray.png')"
+onmouseout="(this.src='../img/youniv_logo_wh.png')" -->
         </a>
           <div class="topnav_wrap">
             <a href="./original.php" class="nav_button">오리지널</a>

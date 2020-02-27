@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="main_content_normal_text">
-            <p style="font-weight:500; word-break:keep-all;">학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned & Operated 채널)을 직접 운영합니다. </p>
+            <p class="main_copy">학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned & Operated 채널)을 직접 운영합니다. </p>
           </div>
         </div>
       </a>
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="main_content_normal_text">
-            <p style="font-weight:500; word-break:keep-all;">교육/러닝 카테고리를 넘어서서 학생 라이프스타일 채널들이 높은 영향력을 얻을 수 있도록 전범위적인 매니지먼트를 지원합니다.</p>
+            <p class="main_copy">교육/러닝 카테고리를 넘어서서 학생 라이프스타일 채널들이 높은 영향력을 얻을 수 있도록 전범위적인 매니지먼트를 지원합니다.</p>
           </div>
         </div>
       </a>
@@ -57,7 +57,7 @@
           </div>
           </div>
           <div class="main_content_normal_text">
-            <p style="font-weight:500; word-break:keep-all;">변화하는 뉴미디어 환경에 맞춰 YouTube를 기반으로 유익하면서 동시에 재미있는 교육/학습 콘텐츠를 제공합니다.</p>
+            <p class="main_copy">변화하는 뉴미디어 환경에 맞춰 YouTube를 기반으로 유익하면서 동시에 재미있는 교육/학습 콘텐츠를 제공합니다.</p>
           </div>
         </div>
       </a>
@@ -78,7 +78,7 @@
         </div>
         </div>
         <div class="main_content_normal_text">
-          <p style="font-weight:500; word-break:keep-all;">오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 콘텐츠 역량을 기반으로 브랜드 파워 강화 방안을 제시합니다.</p>
+          <p class="main_copy">오리지널 채널 운영 및 파트너 채널 매니지먼트를 통해 확보한 콘텐츠 역량을 기반으로 브랜드 파워 강화 방안을 제시합니다.</p>
         </div>
       </div>
     </a>
@@ -91,7 +91,7 @@
         </div>
         </div>
         <div class="main_content_normal_text">
-          <p style="font-weight:500; word-break:keep-all;">채널을 기반으로 형성된 강력한 브랜드 아이덴티티를 기반으로 굿즈 출시, 출판 등 다양한 상품화 프로젝트를 진행합니다.</p>
+          <p class="main_copy">채널을 기반으로 형성된 강력한 브랜드 아이덴티티를 기반으로 굿즈 출시, 출판 등 다양한 상품화 프로젝트를 진행합니다.</p>
         </div>
       </div>
     </a>
@@ -124,7 +124,7 @@
           <p><br>영업시간</p>
         </div>
         <div class="contact_address_text">
-          <p>서울시 강남구 테헤란로 501 (VPLEX) 411호<br></p>
+          <p>서울시 강남구 테헤란로 501 브이플렉스 411호 (06168)<br></p>
           <p><br>02-508-8866<br></p>
           <p><br>02-508-8867<br></p>
           <p><br>contact@youniv.video<br></p>

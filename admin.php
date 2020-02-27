@@ -6,7 +6,6 @@
 <?php require("./view/top.php"); ?>
 <?php require("./view/navi.php"); ?>
 
-<?php //require("../view/function_alpha.php"); ?>
 
 <?php print_description(); ?>
 

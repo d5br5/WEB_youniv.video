@@ -32,15 +32,14 @@ ul {
 }
 
 
-
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover {
-  background-color: white;
-  color: #303030;
-}
-.topnav a:hover.gohome{
   background-color: black;
 }
+a:hover.gohome{
+  background-color: black;
+}
+
 
 .topnav_wrap{float: right;}
 

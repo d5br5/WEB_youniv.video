@@ -77,10 +77,11 @@
 </div>
 <div class="divider">
   <div>
-    <h2>파트너 리스트</h2>
+    <h2 style="margin-bottom:1.3rem">파트너 리스트</h2>
   </div>
   <div>
-    <h3>유니브와 함께하는 파트너분들을 소개합니다. </h3>
+    <h3 style="padding-bottom:0.15rem">유니브와 함께하는 파트너분들을 소개합니다. </h3>
+    <p style="padding-bottom:0.5rem"> <span style="font-size:1rem; color:gray">채널 로고를 클릭하시면 해당 채널로 이동합니다.</span></p>
   </div>
   <div class="crt_wrapping">
   <?php
