@@ -8,8 +8,8 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 
-  <img width="100%" src="./img/banner/web_partnership.jpg" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_partnership.jpg" alt="history" class="mobile_image">
+  <img width="100%" src="./img/banner/web_partnership.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_partnership.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
 <section>
   <div class="divider">
 
@@ -25,7 +25,7 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/symbol/management.jpg" alt="매니지먼트">
+            <img class="image_mini" src="./img/symbol/매니지먼트.png?image_loading_time=<?php echo time()?>" alt="매니지먼트">
           <div>
             <h3 class="center" style="font-weight:900">매니지먼트</h3>
           </div>
@@ -42,7 +42,7 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/symbol/studio.jpg" alt="스튜디오">
+            <img class="image_mini" src="./img/symbol/제작지원.png?image_loading_time=<?php echo time()?>" alt="스튜디오">
           <div>
             <h3 class="center" style="font-weight:900">콘텐츠 제작지원</h3>
           </div>
@@ -59,7 +59,7 @@
 
         <div class="wrapper_three">
           <div class="wrap_image_title">
-            <img class="image_mini" src="./img/symbol/business.jpg" alt="광고">
+            <img class="image_mini" src="./img/symbol/비즈니스.png?image_loading_time=<?php echo time()?>" alt="광고">
           <div>
             <h3 class="center" style="font-weight:900">비즈니스</h3>
           </div>

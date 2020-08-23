@@ -10,31 +10,82 @@
 
 
 
-  <img width="100%" src="./img/banner/web_main.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_main.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
 <section>
 <div class="blank"></div>
+<div class="divider">
+  <div>
+    <h1 class="title_divider">Our Vision</h1>
+  </div>
+  <div>
+    <p class="center" id="index">
+      유니브는 필요한 사람들이 배울 수 있게, <br class="br_2">더 많은 사람들이 배우고 싶게 <br class="br_0"><br class="br_2">
+      믿고 보는 러닝(Learning) 콘텐츠를 제공하여<br class="br_0"><br class="br_2">
+      사람들이 디지털 콘텐츠에 소비하는 시간을 <br class="br_2">보다 더 가치 있게 만듭니다.
+    </p>
+  </div>
+  <div class="blank"></div>
+
+  <div>
+    <h1 class="title_divider">Our Mission</h1>
+  </div>
+  <div>
+    <p id="index">2022년까지 유튜브를 완전 정복</p>
+    <h3>
+      3년 후 유니브는 채널 런칭 6개월 내에 실버버튼을 획득해 낸 <br class="br_2">경쟁력 있는 러닝(Learning) O&O 채널을 15개 보유합니다.
+    </h3>
+  </div>
+  <div class="blank"></div>
+
+  <div>
+    <h1 class="title_divider">Core Value</h1>
+  </div>
+  <div>
+    <p id="index">본질</p>
+    <h3>
+      모든 영역에 있어 본질에 집중합니다.
+    </h3>
+  </div>
+  <div>
+    <p id="index">선점</p>
+    <h3>
+      진출할 영역을 선정할 때에는 선점할 수 있는가를 최우선적으로 고민합니다.
+    </h3>
+  </div>
+  <div>
+    <p id="index">지속가능성</p>
+    <h3>
+      지속가능성을 고려하지 않으면 생존할 수 없습니다.
+    </h3>
+  </div>
+  <div>
+    <p id="index">수요자 중심</p>
+    <h3>
+      공급자적 관점에서 벗어나 사고하는 것이 우리가 기성업체와 가장 다른 점입니다.
+    </h3>
+  </div>
+</div>
+
 <div class="divider">
   <div>
     <h1 class="title_divider" style="padding-bottom:0px;">What We Do</h1>
     <p class="gomenu" style="color:gray">각 설명을 클릭하시면 해당 페이지로 이동합니다.</p>
   </div>
-<div class="blank"></div>
+  <div class="blank"></div>
 
   <div class="wrapping">
     <a href="original.php">
-        <div class="wrapper_three">
-          <div class="wrap_image_title">
-            <img class="image_mini" src="./img/symbol/오리지널.png?image_loading_time=<?php echo time()?>" alt="O_O">
-            <div>
+      <div class="wrapper_three">
+        <div class="wrap_image_title">
+          <img class="image_mini" src="./img/symbol/오리지널.png?image_loading_time=<?php echo time()?>" alt="O_O">
+          <div>
               <h3 class="center" style="font-weight:900">오리지널</h3>
-            </div>
-          </div>
-          <div class="main_content_normal_text">
-            <p class="main_copy">학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned & Operated 채널)을 직접 운영합니다. </p>
           </div>
         </div>
-      </a>
+        <div class="main_content_normal_text">
+            <p class="main_copy">학생들을 대상으로 공부팁, 학교 생활 모습 등을 재미있게 알려주는 채널(Owned & Operated 채널)을 직접 운영합니다. </p>
+        </div>
+      </div>
+    </a>
       <a href="creator.php">
         <div class="wrapper_three">
           <div class="wrap_image_title">
@@ -48,27 +99,26 @@
           </div>
         </div>
       </a>
-      <a href="class.php">
-        <div class="wrapper_three">
-          <div class="wrap_image_title">
+    <a href="class.php">
+      <div class="wrapper_three">
+        <div class="wrap_image_title">
           <img class="image_mini" src="./img/symbol/클래스.png?image_loading_time=<?php echo time()?>" alt="class">
           <div>
             <h3 class="center" style="font-weight:900">클래스</h3>
           </div>
-          </div>
-          <div class="main_content_normal_text">
-            <p class="main_copy">변화하는 뉴미디어 환경에 맞춰 YouTube를 기반으로 유익하면서 동시에 재미있는 교육/학습 콘텐츠를 제공합니다.</p>
-          </div>
         </div>
-      </a>
+        <div class="main_content_normal_text">
+            <p class="main_copy">변화하는 뉴미디어 환경에 맞춰 YouTube를 기반으로 유익하면서 동시에 재미있는 교육/학습 콘텐츠를 제공합니다.</p>
+        </div>
+      </div>
+    </a>
   </div>
 
   <div class="blank_hide"></div>
 
-<div class="wrapping">
-  <div class="wrapper_three_hidden">
-
-  </div>
+  <div class="wrapping">
+    <div class="wrapper_three_hidden">
+    </div>
     <a href="business_brand.php">
       <div class="wrapper_three">
         <div class="wrap_image_title">
@@ -95,7 +145,7 @@
         </div>
       </div>
     </a>
-    </div>
+  </div>
 </div>
 
 <div class="blank_hide"></div>

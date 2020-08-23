@@ -8,8 +8,8 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 
-  <img width="100%" src="./img/banner/web_class.jpg" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_class.jpg" alt="history" class="mobile_image">
+  <img width="100%" src="./img/banner/web_class.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_class.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
   <section>
   <div class="blank"></div>
   <div class="divider">
@@ -35,7 +35,7 @@
     <h2>강사소개</h2>
   </div>
   <div class="teacher_wrap">
-      <img src="./img/teacher/t_mingzzi.jpg" alt="밍찌" class="teacher_image">
+      <img src="./img/teacher/t_mingzzi.jpg?image_loading_time=<?php echo time()?>" alt="밍찌" class="teacher_image">
       <div class="wrap_three_title">
         <p class="video_title_2">밍찌 선생님 소개 영상</p>
       <div class="video_wrapper">
@@ -44,15 +44,32 @@
     </div>
   </div>
   <div class="teacher_wrap">
-    <img src="./img/teacher/t_real.jpg" alt="진짜" class="teacher_image">
+    <img src="./img/teacher/t_ddang.jpg?image_loading_time=<?php echo time()?>" alt="땅우" class="teacher_image">
     <div class="wrap_three_title">
-      <p class="video_title_2">정진짜 선생님 소개 영상</p>
+      <p class="video_title_2">땅우 선생님 소개 영상</p>
     <div class="video_wrapper">
-    <iframe  width="560" height="315" src="https://www.youtube.com/embed/452hOM4wJzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yBhTkJmM73M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
   </div>
-
+  <div class="teacher_wrap">
+    <img src="./img/teacher/t_jimyung.jpg?image_loading_time=<?php echo time()?>" alt="지명" class="teacher_image">
+    <div class="wrap_three_title">
+      <p class="video_title_2">지명 선생님 소개 영상</p>
+    <div class="video_wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Y9vrZM9COA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  </div>
+  <div class="teacher_wrap">
+    <img src="./img/teacher/t_chan.jpg?image_loading_time=<?php echo time()?>" alt="김찬" class="teacher_image">
+    <div class="wrap_three_title">
+      <p class="video_title_2">김찬 선생님 소개 영상</p>
+    <div class="video_wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5IiN3piwj0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  </div>
 
 </div>
 

@@ -7,8 +7,8 @@
 <?php // require("./view/function_alpha.php"); ?>
 
 
-  <img width="100%" src="./img/banner/web_original.jpg" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_original.jpg" alt="history" class="mobile_image">
+  <img width="100%" src="./img/banner/web_original.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_original.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
 <section>
 <div class="blank"></div>
 
@@ -17,7 +17,7 @@
   <div class="wrapping">
 <a href="https://www.youtube.com/channel/UCelPbnoAuzgRDFJAsJ4Du7A"  target="_blank">
         <div class="original_logo_wrap">
-            <img class="original_logo" src="./img/logo/logo_yonkotv.png" alt="연고티비" align="bottom">
+            <img class="original_logo" src="./img/logo/logo_yonkotv.png?image_loading_time=<?php echo time()?>" alt="연고티비" align="bottom">
         </div>
         </a>
         <div class="original_logo_title" id="title_2">
@@ -39,12 +39,14 @@
     <h2>크리에이터</h2>
   </div>
   <div class="original_crt_wrap">
-    <img src="./img/creator/crt_hana.jpg" alt="하나" class="original_crt">
-    <img src="./img/creator/crt_tak.jpg" alt="탁이" class="original_crt">
-    <img src="./img/creator/crt_hoony.jpg" alt="후니" class="original_crt">
-    <img src="./img/creator/crt_doony.jpg" alt="두니" class="original_crt">
-    <img src="./img/creator/crt_dabu.jpg" alt="다부" class="original_crt">
-    <img src="./img/creator/crt_nyong.jpg" alt="뇽" class="original_crt">
+    <img src="./img/creator/crt_hana.jpg?image_loading_time=<?php echo time()?>" alt="하나" class="original_crt">
+    <img src="./img/creator/crt_tak.jpg?image_loading_time=<?php echo time()?>" alt="탁이" class="original_crt">
+    <img src="./img/creator/crt_hoony.jpg?image_loading_time=<?php echo time()?>" alt="후니" class="original_crt">
+    <img src="./img/creator/crt_jerry.jpg?image_loading_time=<?php echo time()?>" alt="제리" class="original_crt">
+    <img src="./img/creator/crt_doony.jpg?image_loading_time=<?php echo time()?>" alt="두니" class="original_crt">
+    <img src="./img/creator/crt_dabu.jpg?image_loading_time=<?php echo time()?>" alt="다부" class="original_crt">
+    <img src="./img/creator/crt_nyong.jpg?image_loading_time=<?php echo time()?>" alt="뇽" class="original_crt">
+    <img src="./img/creator/crt_teddy.jpg?image_loading_time=<?php echo time()?>" alt="테디" class="original_crt">
   </div>
 
 <div class="blank"></div>
@@ -58,21 +60,21 @@
       <div class="wrap_three_title">
         <iframe width="100%" height="212px" src="https://www.youtube.com/embed/81nif3nhbkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="video_title">통학생 vs 자취생 24시간 밀착 비교!</p>
-        <p class="video_intro">조회수 115만회 (2019.09.14.)</p>
+        <p class="video_intro">조회수 145만회 (2019.09.14.)</p>
+      </div>
+    </div>
+    <div class="wrapper_three">
+      <div class="wrap_three_title">
+        <iframe width="100%" height="212px" src="https://www.youtube.com/embed/SD3os4riKPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video_title">전교 1등은 내신을 어떻게 준비할까?</p>
+        <p class="video_intro">조회수 119만회 (2020.06.06.)</p>
       </div>
     </div>
     <div class="wrapper_three">
       <div class="wrap_three_title">
         <iframe width="100%" height="212px" src="https://www.youtube.com/embed/LpE8YNsAhyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="video_title">연고대생들이 순공시간을 재봤습니다.</p>
-        <p class="video_intro">조회수 77만회 (2019.09.21.)</p>
-      </div>
-    </div>
-    <div class="wrapper_three">
-      <div class="wrap_three_title">
-        <iframe width="100%" height="212px" src="https://www.youtube.com/embed/zei8EnoTHus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="video_title">인강 프리패스 싹 다 사 봤습니다.</p>
-        <p class="video_intro">조회수 50만회 (2020.01.04.)</p>
+        <p class="video_intro">조회수 104만회 (2019.09.21.)</p>
       </div>
     </div>
 
@@ -87,7 +89,7 @@
   <div class="wrapping">
     <a href="https://www.youtube.com/channel/UCPvwqht-XvcbbaUavs53ejg" target="_blank">
     <div class="original_logo_wrap">
-        <img class="original_logo" src="./img/logo/logo_ipsidukku.png" alt="입시덕후" align="middle">
+        <img class="original_logo" src="./img/logo/logo_ipsidukku.png?image_loading_time=<?php echo time()?>" alt="입시덕후" align="middle">
     </div>
     </a>
     <div class="original_logo_title">
@@ -115,27 +117,28 @@
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/lsM1BzjeJUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="video_title">인생 샤프 TOP5</p>
-            <p class="video_intro">조회수 266만회 (2018.10.13.)</p>
+            <p class="video_intro">조회수 301만회 (2018.10.12.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
-            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/hGqSN8NfWUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="video_title">최악의 급식 메뉴 TOP5</p>
-            <p class="video_intro">조회수 164만회 (2019.08.31.)</p>
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/6rBXDz8jL-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">황당한 수능 부정행위 TOP5</p>
+            <p class="video_intro">조회수 243만회 (2018.11.12.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
-            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/Uzf9oDvmFX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="video_title">문과 VS 이과 차이 TOP3</p>
-            <p class="video_intro">조회수 105만회 (2019.03.11.)</p>
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/2--CHt7wFIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">너네가 잘 모르는 개꿀 대학 TOP4</p>
+            <p class="video_intro">조회수 219만회 (2019.06.17.)</p>
           </div>
         </div>
       </div>
   </div>
   <div class="blank"></div>
 </div>
-</div>
+
+
 
 <?php require('./view/bottom.php');?>

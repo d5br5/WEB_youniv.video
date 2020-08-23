@@ -21,8 +21,8 @@
   </div>
 </div>
 
-  <img width="100%" src="./img/banner/web_brand.jpg" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_brand.jpg" alt="history" class="mobile_image">
+  <img width="100%" src="./img/banner/web_brand.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_brand.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
 <section>
 <div class="divider">
   <div class="apply_button">
@@ -46,21 +46,21 @@
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/Kvbf74o2iGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="video_title">연고티비 X 비상교육 수능기출문제집</p>
-            <p class="video_intro">조회수 32만회 (2020.01.25.)</p>
+            <p class="video_intro">조회수 51만회 (2020.01.26.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/QiLTNSIAl5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="video_title">입시덕후 X 무신사스토어</p>
-            <p class="video_intro">조회수 47만회 (2020.02.08.)</p>
+            <p class="video_intro">조회수 57만회 (2020.02.08.)</p>
           </div>
         </div>
         <div class="wrapper_three">
           <div class="wrap_three_title">
             <iframe width="100%" height="212px" src="https://www.youtube.com/embed/B3jl7PrWKfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="video_title">모르는지 X 삼성전자 갤럭시 S20</p>
-            <p class="video_intro">조회수 12만회 (2020.02.11.)</p>
+            <p class="video_intro">조회수 17만회 (2020.02.11.)</p>
           </div>
         </div>
   </div>
@@ -83,9 +83,9 @@
 
         <div class="wrapper_three">
           <div class="wrap_three_title">
-            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/xye3DIqYfMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="video_title">4수생이 알려주는 <br class="br_only1"> 수능 볼 때 하면 안되는 것 4가지</p>
-            <p class="video_intro">대성마이맥 X 저라뎃</p>
+            <iframe width="100%" height="212px" src="https://www.youtube.com/embed/U41YNKcJ7hI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video_title">PC방 가기 전에 주목! <br class="br_only1"> 수능 전까지 게임 끊는 법</p>
+            <p class="video_intro">대성마이맥 X 선바</p>
           </div>
 
         </div>
@@ -115,7 +115,7 @@
   </div>
   <div class="blank"></div>
   <div class="client_wrapping">
-    <img src="./img/client.png" alt="클라이언트" width="100%">
+    <img src="./img/client.png?image_loading_time=<?php echo time()?>" alt="클라이언트" width="100%">
   </div>
 </div>
 

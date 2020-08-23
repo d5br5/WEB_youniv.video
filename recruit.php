@@ -9,8 +9,8 @@
 
 
 
-  <img width="100%" src="./img/banner/web_recruit.jpg" alt="유니브" class="web_image">
-  <img width="100%" src="./img/banner/mobile_recruit.jpg" alt="history" class="mobile_image">
+  <img width="100%" src="./img/banner/web_recruit.jpg?image_loading_time=<?php echo time()?>" alt="유니브" class="web_image">
+  <img width="100%" src="./img/banner/mobile_recruit.jpg?image_loading_time=<?php echo time()?>" alt="history" class="mobile_image">
   <section>
   <br><div class="blank"></div>
 <div class="divider">
@@ -22,10 +22,10 @@
     <div class="board_row_wrap">
     <li class="board-head">
       <ul class="board-head-title">
-        <li class="rc_form">형태</li>
-        <li class="rc_title">모집 분야</li>
-        <li class="rc_group">직군</li>
-        <li class="rc_career">대상</li>
+        <li class="rc_form" id="rc_form_title">형태</li>
+        <li class="rc_title" id="rc_title_title">모집 분야</li>
+        <li class="rc_group" id="rc_group_title">직군</li>
+        <li class="rc_career" id="rc_career_title">대상</li>
       </ul>
     </li>
     </div>
@@ -47,10 +47,22 @@
           ?>
     <li class="border_content_row">
       <a href="recruit_page.php?rc_no=<?=$filtered['rc_no']?>">
-      <div class="rc_form"><?=$filtered['rc_form']?></div>
-      <div class="rc_title"><?=$filtered['rc_title']?></div>
-      <div class="rc_group"><?=$filtered['rc_group']?></div>
-      <div class="rc_career"><?=$filtered['rc_career']?></div>
+        <div class="rc_normal">
+          <div class="rc_form"><?=$filtered['rc_form']?></div>
+          <div class="rc_title"><?=$filtered['rc_title']?></div>
+          <div class="rc_group"><?=$filtered['rc_group']?></div>
+          <div class="rc_career"><?=$filtered['rc_career']?></div>
+        </div>
+        <div class="rc_mobile">
+          <div class="rc_mobile_left">
+            <div class="rc_title_mobile" style="font-size:1.2rem; margin-left:1%"><?=$filtered['rc_title']?></div>
+            <div class="rc_form_mobile" style="color:gray; margin-left:1%"><?=$filtered['rc_form']?> | <?=$filtered['rc_group']?></div>
+          </div>
+          <div class="rc_mobile_right">
+            <div class="rc_career_mobile"><?=$filtered['rc_career']?></div>
+          </div>
+        </div>
+
       </a>
     </li>
     <?php
