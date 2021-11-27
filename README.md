@@ -64,4 +64,4 @@
 - MySQL 데이터베이스 활용. 파일 저장X
 - 구인 게시글 업로드 관리도 했었으나 현재는 노션 페이지로 대체
 
-<p align="center"><img src="https://user-images.githubusercontent.com/40906871/143448572-78ef01c1-0976-47d5-8a7d-0c5a5626b8f0.JPG" height="500"/><img src="https://user-images.githubusercontent.com/40906871/143448566-629d7863-7e73-4403-9bde-5a111a130d87.JPG" height="500"/><img src="https://user-images.githubusercontent.com/40906871/143448573-71e9881d-d1d7-4e74-a6dc-211a6db64b16.JPG" height="500"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40906871/143448572-78ef01c1-0976-47d5-8a7d-0c5a5626b8f0.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448566-629d7863-7e73-4403-9bde-5a111a130d87.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448573-71e9881d-d1d7-4e74-a6dc-211a6db64b16.JPG" height="450"/></p>
