@@ -1,5 +1,6 @@
 # 유니브 공식 웹페이지 
 ![youniv_logo](https://user-images.githubusercontent.com/40906871/143448236-58856dc0-e80e-48c2-a4c7-02ce74703721.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/40906871/143448572-78ef01c1-0976-47d5-8a7d-0c5a5626b8f0.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448566-629d7863-7e73-4403-9bde-5a111a130d87.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448573-71e9881d-d1d7-4e74-a6dc-211a6db64b16.JPG" height="450"/></p>
 
 ## About the Project
 
@@ -63,5 +64,3 @@
 - 관리자 로그인시 소속 크리에이터 정보 추가,변경,삭제 가능
 - MySQL 데이터베이스 활용. 파일 저장X
 - 구인 게시글 업로드 관리도 했었으나 현재는 노션 페이지로 대체
-
-<p align="center"><img src="https://user-images.githubusercontent.com/40906871/143448572-78ef01c1-0976-47d5-8a7d-0c5a5626b8f0.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448566-629d7863-7e73-4403-9bde-5a111a130d87.JPG" height="450"/><img src="https://user-images.githubusercontent.com/40906871/143448573-71e9881d-d1d7-4e74-a6dc-211a6db64b16.JPG" height="450"/></p>
